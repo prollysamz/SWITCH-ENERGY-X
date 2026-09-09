@@ -1,0 +1,93 @@
+{
+  "status": "UNSCORED. Removes excess missingness-dependent offset from the incumbent.",
+  "candidate": "runs/missingness_correction_v1/submission_missingness_correction.csv",
+  "sha256": "8792db431664d05501843a364a19a428dc937279354f719e67cc83bc24c26896",
+  "incumbent_file": "runs/successful_components_v3/submission_successful_components_v3.csv",
+  "incumbent_sha256": "51886e681f9fc69d8f47c44e6500e0bc92bbb28472b735f6e1625b9167a90ffd",
+  "incumbent_rmse": 0.45066,
+  "step": 1.0,
+  "correction_rms": 0.12365869480038601,
+  "correction_novelty_fraction": 0.9944425991379501,
+  "rms_change_from_incumbent": 0.12365869480038602,
+  "max_absolute_change": 0.5022898531752293,
+  "physics_affine_coefficients": [
+    1.1323045831662295,
+    0.7182293292898033
+  ],
+  "score_identity": "MSE(t) = 0.203094 - 2t*<corr,best-y> + t^2*0.015291",
+  "stratum_profile": {
+    "0": {
+      "n": 60,
+      "offset": 0.502289853175229
+    },
+    "1": {
+      "n": 461,
+      "offset": 0.404147426441137
+    },
+    "2": {
+      "n": 1948,
+      "offset": 0.2990830005132065
+    },
+    "3": {
+      "n": 5484,
+      "offset": 0.21690558463733242
+    },
+    "4": {
+      "n": 10248,
+      "offset": 0.16096877929599637
+    },
+    "5": {
+      "n": 15364,
+      "offset": 0.072125251787063
+    },
+    "6": {
+      "n": 17912,
+      "offset": -0.01122885037092129
+    },
+    "7": {
+      "n": 17134,
+      "offset": -0.02522815458469489
+    },
+    "8": {
+      "n": 13379,
+      "offset": -0.07459441403361
+    },
+    "9": {
+      "n": 8929,
+      "offset": -0.1510577937196771
+    },
+    "10": {
+      "n": 5138,
+      "offset": -0.17256220915756326
+    },
+    "11": {
+      "n": 2449,
+      "offset": -0.17852973269749536
+    },
+    "12": {
+      "n": 995,
+      "offset": -0.3121887092875408
+    },
+    "13": {
+      "n": 338,
+      "offset": -0.3055565308737714
+    },
+    "14": {
+      "n": 124,
+      "offset": -0.07955228143142806
+    },
+    "15": {
+      "n": 37,
+      "offset": -0.5004137441676003
+    }
+  },
+  "n_rows": 100000,
+  "code_sha256": "f724e31af5f8c8ef57b740a5566f8d748809085e023e70b95381d775b1394d9c",
+  "allow_score_calibration": false,
+  "limitations": [
+    "The inner product <corr, best-y> is NOT identified by existing scores, because the correction is orthogonal to the span of all scored files. The sign of the change is therefore unknown before submission.",
+    "Supporting evidence is label-free train-set identity checks, not target labels.",
+    "Public-subset moments are approximated by full-test moments.",
+    "This is a one-probe experiment with unknown sign, not a forecast improvement."
+  ]
+}

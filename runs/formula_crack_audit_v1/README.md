@@ -1,0 +1,1 @@
+Formula crack audit. The physics-basis candidate is preserved as a rejected overfit; no new submission was generated.

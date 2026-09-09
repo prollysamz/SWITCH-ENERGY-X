@@ -1,0 +1,56 @@
+{
+  "status": "Sensor-missingness fit and held-out likelihood validation only.",
+  "temperature": {
+    "features": [
+      7,
+      11,
+      15,
+      21
+    ],
+    "coefficients": [
+      0.250104377647823,
+      0.08896447395075317,
+      38.10577921009227,
+      2.3615190457927087
+    ],
+    "formula": "p0 + amplitude * sigmoid((value-center)/scale)",
+    "training_rows": 134763,
+    "validation_rows": 33847,
+    "baseline_probability": 0.30316926752892115,
+    "heldout_baseline_logloss": 0.6134920572545348,
+    "heldout_conditional_logloss": 0.6107221245374473,
+    "logloss_improvement": 0.002769932717087588,
+    "paired_improvement_se": 0.0002107394177774679,
+    "heldout_brier_baseline": 0.21124172650730877,
+    "heldout_brier_conditional": 0.2100868856464599
+  },
+  "humidity": {
+    "features": [
+      6,
+      16
+    ],
+    "coefficients": [
+      0.2511495236388247,
+      0.06837944927385706,
+      87.73487627963551,
+      2.8986884051107342
+    ],
+    "formula": "p0 + amplitude * sigmoid((value-center)/scale)",
+    "training_rows": 237136,
+    "validation_rows": 59257,
+    "baseline_probability": 0.2590159233520005,
+    "heldout_baseline_logloss": 0.5719540173963147,
+    "heldout_conditional_logloss": 0.5710179738988318,
+    "logloss_improvement": 0.0009360434974829613,
+    "paired_improvement_se": 0.00010978151676104622,
+    "heldout_brier_baseline": 0.19189408727359217,
+    "heldout_brier_conditional": 0.19152289600311218
+  },
+  "target_scores_used": false,
+  "validation_split": "row_id modulo 5 equals zero; parameters fitted on remaining train rows",
+  "limitations": [
+    "Environmental proxies contain measurement noise.",
+    "Conditional independence of sensor failures is an assumption.",
+    "Predicting missingness does not itself prove better imputation or target predictions."
+  ]
+}

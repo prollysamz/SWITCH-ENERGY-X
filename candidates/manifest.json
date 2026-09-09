@@ -1,0 +1,66 @@
+{
+  "status": "UNVALIDATED target hypotheses; sensor validation is separate",
+  "source": "User-provided competition screenshots and local feature data",
+  "assumptions": {
+    "target_mean": 3.9,
+    "target_sd": 4.6,
+    "current_rmse": 2.53192,
+    "generation_sd": 3.8760660356363625,
+    "new_effect_sd": 2.0,
+    "soc_lower_bound": 0.05,
+    "soc_upper_bound": 1.0,
+    "reciprocal_epsilon": 0.05,
+    "heat_threshold": 40.0,
+    "marginal_quadrature_nodes": 24
+  },
+  "normalization": {
+    "battery": {
+      "mean": -1.2306711797185623,
+      "slope": 0.023509101632328566,
+      "sd": 0.5789712276066568
+    },
+    "heat": {
+      "mean": -4.599698220359423,
+      "slope": 0.6910354499091907,
+      "sd": 6.188174258396143
+    },
+    "combined": {
+      "mean": -3.1832314562052486e-17,
+      "slope": 4.689582056016661e-18,
+      "sd": 1.0995828399227598
+    }
+  },
+  "scale_only_rmse_if_target_moments_exact": 2.4771176975239206,
+  "candidates": {
+    "battery": {
+      "file": "candidates\\submission_battery.csv",
+      "mean": 3.744787515967886,
+      "sd": 4.374884135370524,
+      "negative_fraction": 0.13327,
+      "min": -25.111185603345312,
+      "max": 23.40120304552553,
+      "rms_change_from_baseline": 2.0782520721699003,
+      "sha256": "775f80e83dd33b2afe1e356f6bd0eabd2ec25ba4b9f7f31b56a802efd8d1bb7a"
+    },
+    "thermal": {
+      "file": "candidates\\submission_thermal.csv",
+      "mean": 3.8795510617125006,
+      "sd": 4.366168603145883,
+      "negative_fraction": 0.1506,
+      "min": -24.20210111169465,
+      "max": 20.65047329472529,
+      "rms_change_from_baseline": 2.0764931349512814,
+      "sha256": "91ce2f67678b21a04865890249e0923f73c9258855c9dfa668c45ea8a37b9b9a"
+    },
+    "combined": {
+      "file": "candidates\\submission_combined.csv",
+      "mean": 3.778386934906136,
+      "sd": 4.372040874541792,
+      "negative_fraction": 0.14606,
+      "min": -20.41736961689982,
+      "max": 22.79083915198806,
+      "rms_change_from_baseline": 2.0749250678621953,
+      "sha256": "e6e9f2f1b6e20115c18a1e41ed834c6c05cc04d573b50726b614000bedb713f6"
+    }
+  }
+}

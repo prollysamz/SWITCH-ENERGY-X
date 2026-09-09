@@ -1,0 +1,287 @@
+{
+  "status": "Diagnostic only; no submission.",
+  "results": [
+    {
+      "family": "gross",
+      "coefficient_names": [
+        "generation",
+        "demand",
+        "gen_temperature",
+        "quadratic_temperature",
+        "linear_temperature"
+      ],
+      "coefficients": [
+        0.5475557588045316,
+        -7.147485388954661e-11,
+        0.0007326956895608146,
+        -0.00768828183757719,
+        0.02138940735279221
+      ],
+      "condition_number": 6066.392305513907,
+      "projection_error": 0.0019083949883026896,
+      "residual_variance": -0.0368447025213805,
+      "heldout_slope_forecast": 0.8462947414790445,
+      "rms_change": 0.6306227235887145,
+      "historical": [
+        {
+          "file": "submission.csv",
+          "score": 2.53192,
+          "forecast": 2.529696898366664
+        },
+        {
+          "file": "candidates/submission_combined.csv",
+          "score": 1.83716,
+          "forecast": 1.8329837628457728
+        },
+        {
+          "file": "candidates/submission_battery.csv",
+          "score": 2.8156,
+          "forecast": 2.816524224438299
+        },
+        {
+          "file": "candidates/submission_tuned_heat.csv",
+          "score": 1.08381,
+          "forecast": 1.0678412608697807
+        },
+        {
+          "file": "candidates/submission_refined_plane.csv",
+          "score": 0.78886,
+          "forecast": 0.7825939368184768
+        },
+        {
+          "file": "runs/reconstruction_v1/submission_reconstruction_repaired.csv",
+          "score": 0.75,
+          "forecast": 0.7755703230810145
+        },
+        {
+          "file": "candidates/submission_thermal_tail.csv",
+          "score": 0.84,
+          "forecast": 0.8406067707489232
+        },
+        {
+          "file": "candidates/submission_blend_v2.csv",
+          "score": 0.71269,
+          "forecast": 0.7125889807700743
+        },
+        {
+          "file": "runs/interaction_v1/submission_generation_heat.csv",
+          "score": 0.94148,
+          "forecast": 0.9402873187422474
+        },
+        {
+          "file": "runs/thermal_reference_v1/submission_quadratic_heat25.csv",
+          "score": 0.62717,
+          "forecast": 0.6301731631004569
+        },
+        {
+          "file": "runs/thermal_calibrated_v1/submission_thermal_calibrated.csv",
+          "score": 0.60061,
+          "forecast": 0.6017957773628982
+        },
+        {
+          "file": "runs/observed_thermal_v1/submission_observed_temperature.csv",
+          "score": 0.64514,
+          "forecast": 0.6503130277691213
+        },
+        {
+          "file": "runs/temperature_slope_v1/submission_temperature_slope.csv",
+          "score": 0.84,
+          "forecast": 0.8462947414790445
+        },
+        {
+          "file": "runs/deterministic_v1/submission_deterministic.csv",
+          "score": 0.60058,
+          "forecast": 0.6006998559888846
+        }
+      ]
+    },
+    {
+      "family": "delivered",
+      "coefficient_names": [
+        "generation",
+        "demand",
+        "gen_temperature",
+        "quadratic_temperature",
+        "linear_temperature"
+      ],
+      "coefficients": [
+        0.5780531978879863,
+        -9.769757349598217e-09,
+        0.001196754970668488,
+        -0.007704546351620879,
+        0.02212675071218014
+      ],
+      "condition_number": 6112.086551343742,
+      "projection_error": 0.00033564753717238975,
+      "residual_variance": -0.061083040513136316,
+      "heldout_slope_forecast": 0.845950022981082,
+      "rms_change": 0.6493162639821157,
+      "historical": [
+        {
+          "file": "submission.csv",
+          "score": 2.53192,
+          "forecast": 2.529700367639481
+        },
+        {
+          "file": "candidates/submission_combined.csv",
+          "score": 1.83716,
+          "forecast": 1.8345799947348427
+        },
+        {
+          "file": "candidates/submission_battery.csv",
+          "score": 2.8156,
+          "forecast": 2.817729715411666
+        },
+        {
+          "file": "candidates/submission_tuned_heat.csv",
+          "score": 1.08381,
+          "forecast": 1.0700183620413035
+        },
+        {
+          "file": "candidates/submission_refined_plane.csv",
+          "score": 0.78886,
+          "forecast": 0.7842245414673771
+        },
+        {
+          "file": "runs/reconstruction_v1/submission_reconstruction_repaired.csv",
+          "score": 0.75,
+          "forecast": 0.7772396872095935
+        },
+        {
+          "file": "candidates/submission_thermal_tail.csv",
+          "score": 0.84,
+          "forecast": 0.8400998549228762
+        },
+        {
+          "file": "candidates/submission_blend_v2.csv",
+          "score": 0.71269,
+          "forecast": 0.7133863017236614
+        },
+        {
+          "file": "runs/interaction_v1/submission_generation_heat.csv",
+          "score": 0.94148,
+          "forecast": 0.9404392202450592
+        },
+        {
+          "file": "runs/thermal_reference_v1/submission_quadratic_heat25.csv",
+          "score": 0.62717,
+          "forecast": 0.6293281001541776
+        },
+        {
+          "file": "runs/thermal_calibrated_v1/submission_thermal_calibrated.csv",
+          "score": 0.60061,
+          "forecast": 0.6015207393940935
+        },
+        {
+          "file": "runs/observed_thermal_v1/submission_observed_temperature.csv",
+          "score": 0.64514,
+          "forecast": 0.6500441784651646
+        },
+        {
+          "file": "runs/temperature_slope_v1/submission_temperature_slope.csv",
+          "score": 0.84,
+          "forecast": 0.845950022981082
+        },
+        {
+          "file": "runs/deterministic_v1/submission_deterministic.csv",
+          "score": 0.60058,
+          "forecast": 0.6004403135687696
+        }
+      ]
+    },
+    {
+      "family": "usable",
+      "coefficient_names": [
+        "generation",
+        "demand",
+        "gen_temperature",
+        "quadratic_temperature",
+        "linear_temperature"
+      ],
+      "coefficients": [
+        0.6181373899838238,
+        -7.640412631226945e-13,
+        0.0034284237999022134,
+        -0.0077660548204799415,
+        0.023915747045823145
+      ],
+      "condition_number": 6040.75659146615,
+      "projection_error": 0.0029579071612284317,
+      "residual_variance": -0.01729815070858967,
+      "heldout_slope_forecast": 0.8487911922265168,
+      "rms_change": 0.6153210206376591,
+      "historical": [
+        {
+          "file": "submission.csv",
+          "score": 2.53192,
+          "forecast": 2.5297506507216148
+        },
+        {
+          "file": "candidates/submission_combined.csv",
+          "score": 1.83716,
+          "forecast": 1.8319838538659063
+        },
+        {
+          "file": "candidates/submission_battery.csv",
+          "score": 2.8156,
+          "forecast": 2.8157598035254674
+        },
+        {
+          "file": "candidates/submission_tuned_heat.csv",
+          "score": 1.08381,
+          "forecast": 1.0665084555934212
+        },
+        {
+          "file": "candidates/submission_refined_plane.csv",
+          "score": 0.78886,
+          "forecast": 0.781681727665145
+        },
+        {
+          "file": "runs/reconstruction_v1/submission_reconstruction_repaired.csv",
+          "score": 0.75,
+          "forecast": 0.7746343665396357
+        },
+        {
+          "file": "candidates/submission_thermal_tail.csv",
+          "score": 0.84,
+          "forecast": 0.8411050598386173
+        },
+        {
+          "file": "candidates/submission_blend_v2.csv",
+          "score": 0.71269,
+          "forecast": 0.7122510545938231
+        },
+        {
+          "file": "runs/interaction_v1/submission_generation_heat.csv",
+          "score": 0.94148,
+          "forecast": 0.9403398081613957
+        },
+        {
+          "file": "runs/thermal_reference_v1/submission_quadratic_heat25.csv",
+          "score": 0.62717,
+          "forecast": 0.6309377599432043
+        },
+        {
+          "file": "runs/thermal_calibrated_v1/submission_thermal_calibrated.csv",
+          "score": 0.60061,
+          "forecast": 0.6021925347831558
+        },
+        {
+          "file": "runs/observed_thermal_v1/submission_observed_temperature.csv",
+          "score": 0.64514,
+          "forecast": 0.6506251441947142
+        },
+        {
+          "file": "runs/temperature_slope_v1/submission_temperature_slope.csv",
+          "score": 0.84,
+          "forecast": 0.8487911922265168
+        },
+        {
+          "file": "runs/deterministic_v1/submission_deterministic.csv",
+          "score": 0.60058,
+          "forecast": 0.6011004971965893
+        }
+      ]
+    }
+  ]
+}

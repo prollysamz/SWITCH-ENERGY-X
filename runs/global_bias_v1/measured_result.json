@@ -1,0 +1,6 @@
+{
+  "probe_public_score": 0.45368,
+  "measured_public_mean_residual": -0.025112831500000293,
+  "bias_only_public_rmse": 0.4360875162098229,
+  "decision": "Do not spend a submission on this small offset correction; retain constraint for structural search."
+}

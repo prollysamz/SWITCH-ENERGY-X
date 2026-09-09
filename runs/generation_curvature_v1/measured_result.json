@@ -1,0 +1,21 @@
+{
+  "measured_score": 0.46182,
+  "original_best_score": 0.49992,
+  "direction_q_full_test": 0.0225,
+  "nominal_weight": 1.3142732,
+  "nominal_rmse_forecast": 0.4387124370403908,
+  "forecast_improvement": 0.0231075629596092,
+  "random_public_subset_q_standard_error": 0.0002378313517556681,
+  "q_stress_forecasts": [
+    {
+      "q": 0.021786505944732994,
+      "rmse_at_nominal_weight": 0.4373055843592392
+    },
+    {
+      "q": 0.023213494055267004,
+      "rmse_at_nominal_weight": 0.44011479265762254
+    }
+  ],
+  "note": "Forecast, not private validation; public subset moment is unknown.",
+  "decision": "Corrected user-reported score; downstream calibration was rebuilt from the corrected endpoint."
+}

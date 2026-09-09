@@ -1,0 +1,26 @@
+{
+  "status": "Measured optimum along two independently measured orthogonal directions.",
+  "candidate": "runs/optimal_step_v1/submission_optimal_step.csv",
+  "sha256": "6764740443ef82125db408cd27369e9983076555011b8fe1de4471700c178555",
+  "incumbent_file": "runs/successful_components_v3/submission_successful_components_v3.csv",
+  "incumbent_rmse": 0.45066,
+  "probe_file": "runs/measurement_probe_v1/submission_measurement_probe.csv",
+  "probe_step": 0.05,
+  "probe_score": 0.4448,
+  "measured_cosine_gen_shape": 0.1719122087604855,
+  "step_gen_shape": 0.0774739560000004,
+  "step_in_span": 0.021455307026438428,
+  "direction_cross_term": -9.56902113102842e-15,
+  "predicted_rmse": 0.4434319469119374,
+  "predicted_gain": 0.007228053088062625,
+  "rms_change_from_incumbent": 0.08038994998063319,
+  "max_absolute_change": 1.9015866125810668,
+  "n_rows": 100000,
+  "code_sha256": "822fa87748add72ef27f013a176f1fdc04d3e6af26e64a6d14919359cfbd0970",
+  "allow_score_calibration": false,
+  "limitations": [
+    "The step sizes are measured, but the measurement uses the PUBLIC score. Public-subset moments are approximated by full-test moments, so the realised public score may differ slightly from the prediction.",
+    "Optimising against public feedback is adaptive fitting to ~30k rows; the private split may not reproduce the full gain.",
+    "This exploits measured directions only. It does not identify the target."
+  ]
+}

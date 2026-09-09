@@ -1,0 +1,179 @@
+{
+  "status": "Unscored 25% compact-model blend; not validated against hidden labels.",
+  "candidate": "runs/compact_blend_v1/submission_compact_blend.csv",
+  "sha256": "76b8432310b193062d874fc53df8abb83e102a7d3783a2aacee94e4885d5e602",
+  "incumbent_file": "candidates/submission_best_0p53504.csv",
+  "incumbent_sha256": "ec2c74e5732c8c3d6b8f992ccccbdb76b2b242adb6841c18c5b3614604c145f3",
+  "incumbent_rmse": 0.53504,
+  "allow_score_calibration": true,
+  "blend_weight": 0.25,
+  "coefficient_names": [
+    "wind",
+    "solar",
+    "demand_storage_ratio",
+    "symmetric_quadratic_temperature",
+    "generation_temperature",
+    "linear_temperature"
+  ],
+  "coefficients": [
+    0.5613634853407172,
+    2.597182825338892,
+    0.09599072768345154,
+    -0.007739089386640148,
+    0.0005635723444044611,
+    -0.004594910278741928
+  ],
+  "feature_centers": [
+    4.427889061169495,
+    0.4130031971470781,
+    1.2729107242642623,
+    360.2549277044057,
+    72.5624544569295,
+    40.983284772913734
+  ],
+  "target_mean_assumed": 3.9,
+  "selection": "Coordinatewise median coefficients from 40 random-public-moment stress fits; 75% incumbent retained.",
+  "scores_excluded_from_coefficient_fit": [
+    "approximate scores",
+    "observed-temperature probe",
+    "deterministic correction",
+    "learned correction",
+    "direct-demand probe",
+    "direct-storage probe",
+    "temperature-slope probe"
+  ],
+  "selection_uses_public_diagnostics": true,
+  "source_stress_summary": {
+    "samples": 40,
+    "median_prediction_rms_change": 0.033026913352894864,
+    "p95_prediction_rms_change": 0.3015283951597438,
+    "maximum_prediction_rms_change": 0.38278831333694263
+  },
+  "rms_change": 0.13040130973081282,
+  "max_absolute_change": 1.3994432371505914,
+  "top_one_percent_change_energy_share": 0.14041506712773805,
+  "q_random_public_subset_se": 0.0001729605401982899,
+  "target_rmse_forecast": null,
+  "sources": [
+    {
+      "file": "submission.csv",
+      "sha256": "3f2c372bf15f93b70bbf711bc2a5036785cb495746d065f3d73b42ee6b51f104",
+      "score": 2.53192,
+      "precision": "see ledger"
+    },
+    {
+      "file": "candidates/submission_combined.csv",
+      "sha256": "e6e9f2f1b6e20115c18a1e41ed834c6c05cc04d573b50726b614000bedb713f6",
+      "score": 1.83716,
+      "precision": "see ledger"
+    },
+    {
+      "file": "candidates/submission_battery.csv",
+      "sha256": "775f80e83dd33b2afe1e356f6bd0eabd2ec25ba4b9f7f31b56a802efd8d1bb7a",
+      "score": 2.8156,
+      "precision": "see ledger"
+    },
+    {
+      "file": "candidates/submission_tuned_heat.csv",
+      "sha256": "849c866d999eab48bfcbc77a38157ba62e7db327c1f2787a38279465f91093f4",
+      "score": 1.08381,
+      "precision": "see ledger"
+    },
+    {
+      "file": "candidates/submission_refined_plane.csv",
+      "sha256": "9e99dda7caccc2d384cca69bb5cdd1b20bb95116193d7e4a5a47234b49fb3486",
+      "score": 0.78886,
+      "precision": "see ledger"
+    },
+    {
+      "file": "runs/reconstruction_v1/submission_reconstruction_repaired.csv",
+      "sha256": "808d02e1c832e62aaad51645145f1755a581ccb910839cf5c5f7f6ab7710cb4d",
+      "score": 0.75,
+      "precision": "see ledger"
+    },
+    {
+      "file": "candidates/submission_thermal_tail.csv",
+      "sha256": "30d528b093ffaadf75977a02f3a85f277ee3725091736e6041c4c12f700840ed",
+      "score": 0.84,
+      "precision": "see ledger"
+    },
+    {
+      "file": "candidates/submission_blend_v2.csv",
+      "sha256": "48c8d6801f7290839877dcaedcb559c0d65499d941e1aa86c7f80c619ddeae8f",
+      "score": 0.71269,
+      "precision": "see ledger"
+    },
+    {
+      "file": "runs/interaction_v1/submission_generation_heat.csv",
+      "sha256": "788d1a0f6e6ef297f001051bfdad595774d48ee99405f61de57809dc50a957d7",
+      "score": 0.94148,
+      "precision": "see ledger"
+    },
+    {
+      "file": "runs/thermal_reference_v1/submission_quadratic_heat25.csv",
+      "sha256": "0adf20eaafc10df97cead7e7beb45e2f1fe10625a1d3dc7d4b6035fb500ff018",
+      "score": 0.62717,
+      "precision": "see ledger"
+    },
+    {
+      "file": "runs/thermal_calibrated_v1/submission_thermal_calibrated.csv",
+      "sha256": "79347b19112365760de56159341c3a2f92c17e4551d2af02c9afbe814bff6e9b",
+      "score": 0.60061,
+      "precision": "see ledger"
+    },
+    {
+      "file": "runs/observed_thermal_v1/submission_observed_temperature.csv",
+      "sha256": "58e2ee81d6bc1aa859a6ecb3f875827691d2005ffd3209f941bf858d694fd893",
+      "score": 0.64514,
+      "precision": "see ledger"
+    },
+    {
+      "file": "runs/temperature_slope_v1/submission_temperature_slope.csv",
+      "sha256": "20e74f046731154b089471c60fd3fd1a263b5dccaa369998d5419476f4ca698b",
+      "score": 0.84,
+      "precision": "approximate"
+    },
+    {
+      "file": "runs/deterministic_v1/submission_deterministic.csv",
+      "sha256": "ef2cba635975b56601a4acfe4d4a5814afa6e7f4cb8941cf9ef6170bee530f36",
+      "score": 0.60058,
+      "precision": "exact"
+    },
+    {
+      "file": "runs/learned_energy_v1/submission_learned_energy.csv",
+      "sha256": "386c114c02ce2c13055afc004ee4177abff89e30ffe703ba6d1a307e14ffed20",
+      "score": 0.60042,
+      "precision": "exact"
+    },
+    {
+      "file": "runs/solar_contribution_v1/submission_solar_contribution.csv",
+      "sha256": "ec2c74e5732c8c3d6b8f992ccccbdb76b2b242adb6841c18c5b3614604c145f3",
+      "score": 0.53504,
+      "precision": "exact"
+    },
+    {
+      "file": "runs/direct_demand_v1/submission_direct_demand.csv",
+      "sha256": "0d30ea0abc75baee225e6e107bd1b64896259d15e33e7459e3838610db8a69f5",
+      "score": 0.57,
+      "precision": "approximate"
+    },
+    {
+      "file": "runs/storage_contribution_v1/submission_storage_contribution.csv",
+      "sha256": "f972b2d304af43d984f144bb8d78f53cbc997f02e4867bb3e980c6a288489a3c",
+      "score": 0.58,
+      "precision": "approximate"
+    }
+  ],
+  "code_sha256": {
+    "fit_compact_score_losses.py": "d3770dde3c4efd8e8726739e586db6c7cbf416a80d99f2187973748df8039430",
+    "stress_compact_law.py": "f44c65f757b6a7656d7c5a26cdae10d6408281319ec2c8d5e28310bddde8b4a3",
+    "build_compact_blend.py": "afbde479d51fb7a014d14cef59c2f39a37b9d788ffd58550ba81c52001008266"
+  },
+  "limitations": [
+    "Target law is inferred from adaptive aggregate feedback, not fitted to known labels.",
+    "Residual-variance boundary and subset sensitivity prevent trusting the full law or a score forecast.",
+    "Some older approximate scores are poorly explained; their source precision/provenance is incomplete.",
+    "The ratio coefficient is positive in these fits, contrary to a simple drawdown interpretation; coefficients are not established physical effects.",
+    "Taking median coefficients and a 25% blend mitigates sensitivity but does not prove generalization."
+  ]
+}

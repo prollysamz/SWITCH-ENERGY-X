@@ -1,0 +1,151 @@
+{
+  "status": "Unscored independent solar-contribution experiment.",
+  "candidate": "runs/solar_contribution_v1/submission_solar_contribution.csv",
+  "sha256": "ec2c74e5732c8c3d6b8f992ccccbdb76b2b242adb6841c18c5b3614604c145f3",
+  "incumbent_file": "candidates/submission_best_0p60042.csv",
+  "incumbent_sha256": "386c114c02ce2c13055afc004ee4177abff89e30ffe703ba6d1a307e14ffed20",
+  "incumbent_rmse": 0.60042,
+  "allow_score_calibration": true,
+  "hypothesis": "The target needs a separately weighted solar contribution beyond the tied solar/wind generation term.",
+  "raw_effect": "E[solar_generation]",
+  "rms_step": 0.2,
+  "raw_solar_sd": 0.18954221056050968,
+  "independent_solar_sd": 0.13487259125075174,
+  "unrepresented_variance_fraction": 0.506332168852669,
+  "raw_solar_increment_coefficient": 1.4828809778568355,
+  "projection": {
+    "rank": 8,
+    "intercept": 0.40666705309246676,
+    "coefficients": [
+      0.02458774716203523,
+      0.005042563709368255,
+      0.018405750090943432,
+      -0.012056795540504529,
+      -0.008458176476711434,
+      -0.009524306917699898,
+      0.11052228662097051,
+      0.03441272329842314,
+      -0.05956700545294758,
+      -0.05045015892437091,
+      -0.008034728578939238,
+      0.008380636126136876,
+      -0.03486295458985716,
+      -0.008085066813429203,
+      -0.008706038171101618
+    ],
+    "residual_sd": 0.13487259125075174,
+    "minimum_direction_energy": 0.025,
+    "singular_values": [
+      5550.518776422119,
+      979.4014463779041,
+      561.5608071541486,
+      254.60469111857097,
+      199.85165173611713,
+      143.88872058313507,
+      132.3629846061366,
+      70.50468029355824,
+      30.919835467689243,
+      14.270769124135546,
+      5.772152678820485,
+      1.612173169611966e-11,
+      6.674570188715309e-13,
+      3.457757823240327e-13,
+      2.7863474593456866e-13
+    ]
+  },
+  "sources": [
+    {
+      "file": "submission.csv",
+      "sha256": "3f2c372bf15f93b70bbf711bc2a5036785cb495746d065f3d73b42ee6b51f104"
+    },
+    {
+      "file": "candidates/submission_combined.csv",
+      "sha256": "e6e9f2f1b6e20115c18a1e41ed834c6c05cc04d573b50726b614000bedb713f6"
+    },
+    {
+      "file": "candidates/submission_battery.csv",
+      "sha256": "775f80e83dd33b2afe1e356f6bd0eabd2ec25ba4b9f7f31b56a802efd8d1bb7a"
+    },
+    {
+      "file": "candidates/submission_tuned_heat.csv",
+      "sha256": "849c866d999eab48bfcbc77a38157ba62e7db327c1f2787a38279465f91093f4"
+    },
+    {
+      "file": "candidates/submission_refined_plane.csv",
+      "sha256": "9e99dda7caccc2d384cca69bb5cdd1b20bb95116193d7e4a5a47234b49fb3486"
+    },
+    {
+      "file": "runs/reconstruction_v1/submission_reconstruction_repaired.csv",
+      "sha256": "808d02e1c832e62aaad51645145f1755a581ccb910839cf5c5f7f6ab7710cb4d"
+    },
+    {
+      "file": "candidates/submission_thermal_tail.csv",
+      "sha256": "30d528b093ffaadf75977a02f3a85f277ee3725091736e6041c4c12f700840ed"
+    },
+    {
+      "file": "candidates/submission_blend_v2.csv",
+      "sha256": "48c8d6801f7290839877dcaedcb559c0d65499d941e1aa86c7f80c619ddeae8f"
+    },
+    {
+      "file": "runs/interaction_v1/submission_generation_heat.csv",
+      "sha256": "788d1a0f6e6ef297f001051bfdad595774d48ee99405f61de57809dc50a957d7"
+    },
+    {
+      "file": "runs/thermal_reference_v1/submission_quadratic_heat25.csv",
+      "sha256": "0adf20eaafc10df97cead7e7beb45e2f1fe10625a1d3dc7d4b6035fb500ff018"
+    },
+    {
+      "file": "runs/thermal_calibrated_v1/submission_thermal_calibrated.csv",
+      "sha256": "79347b19112365760de56159341c3a2f92c17e4551d2af02c9afbe814bff6e9b"
+    },
+    {
+      "file": "runs/observed_thermal_v1/submission_observed_temperature.csv",
+      "sha256": "58e2ee81d6bc1aa859a6ecb3f875827691d2005ffd3209f941bf858d694fd893"
+    },
+    {
+      "file": "runs/temperature_slope_v1/submission_temperature_slope.csv",
+      "sha256": "20e74f046731154b089471c60fd3fd1a263b5dccaa369998d5419476f4ca698b"
+    },
+    {
+      "file": "runs/deterministic_v1/submission_deterministic.csv",
+      "sha256": "ef2cba635975b56601a4acfe4d4a5814afa6e7f4cb8941cf9ef6170bee530f36"
+    },
+    {
+      "file": "runs/learned_energy_v1/submission_learned_energy.csv",
+      "sha256": "386c114c02ce2c13055afc004ee4177abff89e30ffe703ba6d1a307e14ffed20"
+    }
+  ],
+  "stability": [
+    {
+      "fit_rows": 50000,
+      "heldout_rows": 50000,
+      "heldout_correlation": 0.9999627002523909,
+      "heldout_relative_rms_difference": 0.008641735600604798
+    },
+    {
+      "fit_rows": 50000,
+      "heldout_rows": 50000,
+      "heldout_correlation": 0.9999635741445556,
+      "heldout_relative_rms_difference": 0.008536960088066082
+    }
+  ],
+  "sensor_audit": {
+    "n": 6000,
+    "rmse": 0.03533593571422309,
+    "constant_baseline_rmse": 0.19340957049724858,
+    "r_squared": 0.9666206964268806
+  },
+  "target_rmse_forecast": null,
+  "score_values_used_for_new_coefficient": false,
+  "rms_change": 0.2,
+  "maximum_change": 0.9648200954021434,
+  "zero_residual_signal_rmse_scenario": 0.6328539929557211,
+  "public_q_random_subset_se": 0.0002797903445040655,
+  "code_sha256": "30c5a690b0705b1709be9df4a277e1b7ab21249d4589d222d68a671d21d7f7d1",
+  "limitations": [
+    "Solar sign and coefficient in the target are unverified.",
+    "Orthogonality and scenario calculations use the full test data, not the unknown public subset.",
+    "Sensor accuracy and geometric stability do not validate the target formula.",
+    "An independent solar component is a hypothesis; its unrepresented variance is not evidence of target signal."
+  ]
+}

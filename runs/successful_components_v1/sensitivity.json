@@ -1,0 +1,1012 @@
+{
+  "summary": {
+    "random_subsets": 100,
+    "rows_per_subset": 30000,
+    "fixed_candidate_forecast_min": 0.457836760917722,
+    "fixed_candidate_forecast_max": 0.45965563244412333,
+    "p95_refitted_prediction_rms_shift": 0.005735222755146783,
+    "maximum_refitted_prediction_rms_shift": 0.007981837526443243
+  },
+  "samples": [
+    {
+      "iteration": 0,
+      "fixed_candidate_rmse": 0.4586459562989393,
+      "optimal_increment_weights": [
+        1.2709680070057017,
+        1.4903223801725167,
+        1.1831130618166996
+      ],
+      "refitted_prediction_rms_shift": 0.0021387549182906663
+    },
+    {
+      "iteration": 1,
+      "fixed_candidate_rmse": 0.4590247294016014,
+      "optimal_increment_weights": [
+        1.26467630313841,
+        1.4773898233343281,
+        1.172427150500589
+      ],
+      "refitted_prediction_rms_shift": 0.0033567969061894746
+    },
+    {
+      "iteration": 2,
+      "fixed_candidate_rmse": 0.45803246073835374,
+      "optimal_increment_weights": [
+        1.2704380822571797,
+        1.5252423172440612,
+        1.1960044416599336
+      ],
+      "refitted_prediction_rms_shift": 0.004426109175982672
+    },
+    {
+      "iteration": 3,
+      "fixed_candidate_rmse": 0.4581927493011797,
+      "optimal_increment_weights": [
+        1.2719301603232456,
+        1.5118914577732931,
+        1.1964356618339964
+      ],
+      "refitted_prediction_rms_shift": 0.003449891858788649
+    },
+    {
+      "iteration": 4,
+      "fixed_candidate_rmse": 0.4585220135706915,
+      "optimal_increment_weights": [
+        1.2659084529597004,
+        1.503631701618437,
+        1.1849739524936351
+      ],
+      "refitted_prediction_rms_shift": 0.0011025378619014033
+    },
+    {
+      "iteration": 5,
+      "fixed_candidate_rmse": 0.45829370682275133,
+      "optimal_increment_weights": [
+        1.2614941505910906,
+        1.5210783669929695,
+        1.193007569626157
+      ],
+      "refitted_prediction_rms_shift": 0.003091708541149802
+    },
+    {
+      "iteration": 6,
+      "fixed_candidate_rmse": 0.4581097823845902,
+      "optimal_increment_weights": [
+        1.2762901743982389,
+        1.5181367383951418,
+        1.1863774230768165
+      ],
+      "refitted_prediction_rms_shift": 0.004097224202581758
+    },
+    {
+      "iteration": 7,
+      "fixed_candidate_rmse": 0.4582913651465163,
+      "optimal_increment_weights": [
+        1.2584793368409781,
+        1.5255698583766149,
+        1.1936938060120332
+      ],
+      "refitted_prediction_rms_shift": 0.0036110662796996424
+    },
+    {
+      "iteration": 8,
+      "fixed_candidate_rmse": 0.45861687723496586,
+      "optimal_increment_weights": [
+        1.261223906174364,
+        1.5015228647186136,
+        1.1868811918837534
+      ],
+      "refitted_prediction_rms_shift": 0.0006270359132919614
+    },
+    {
+      "iteration": 9,
+      "fixed_candidate_rmse": 0.4585211614574828,
+      "optimal_increment_weights": [
+        1.260091435809613,
+        1.5049413103878537,
+        1.1931684190610579
+      ],
+      "refitted_prediction_rms_shift": 0.0016649428821349484
+    },
+    {
+      "iteration": 10,
+      "fixed_candidate_rmse": 0.4582963302387313,
+      "optimal_increment_weights": [
+        1.2539639571347734,
+        1.525896708624152,
+        1.2023733727963137
+      ],
+      "refitted_prediction_rms_shift": 0.004484712106106594
+    },
+    {
+      "iteration": 11,
+      "fixed_candidate_rmse": 0.45885390476477894,
+      "optimal_increment_weights": [
+        1.259958470219124,
+        1.4934379591826095,
+        1.1768513651845922
+      ],
+      "refitted_prediction_rms_shift": 0.0013479234178535584
+    },
+    {
+      "iteration": 12,
+      "fixed_candidate_rmse": 0.4587886224510884,
+      "optimal_increment_weights": [
+        1.2587805462931012,
+        1.497394021792129,
+        1.1791384057581449
+      ],
+      "refitted_prediction_rms_shift": 0.0008998264228498829
+    },
+    {
+      "iteration": 13,
+      "fixed_candidate_rmse": 0.4589791895146786,
+      "optimal_increment_weights": [
+        1.2691489054877942,
+        1.4777640532784253,
+        1.1679511365859916
+      ],
+      "refitted_prediction_rms_shift": 0.003820900635192186
+    },
+    {
+      "iteration": 14,
+      "fixed_candidate_rmse": 0.45875314708627063,
+      "optimal_increment_weights": [
+        1.2613233828246921,
+        1.4976832908806594,
+        1.177824730907901
+      ],
+      "refitted_prediction_rms_shift": 0.0008325718549843887
+    },
+    {
+      "iteration": 15,
+      "fixed_candidate_rmse": 0.45897998873808726,
+      "optimal_increment_weights": [
+        1.2584719913246298,
+        1.489374685991709,
+        1.1720600826774912
+      ],
+      "refitted_prediction_rms_shift": 0.002308600440544707
+    },
+    {
+      "iteration": 16,
+      "fixed_candidate_rmse": 0.45843571510168857,
+      "optimal_increment_weights": [
+        1.2821407874214636,
+        1.4899453379102563,
+        1.1812029444505472
+      ],
+      "refitted_prediction_rms_shift": 0.004151974207768869
+    },
+    {
+      "iteration": 17,
+      "fixed_candidate_rmse": 0.45930852254163484,
+      "optimal_increment_weights": [
+        1.2590699938792858,
+        1.4694225846684574,
+        1.1681982835906437
+      ],
+      "refitted_prediction_rms_shift": 0.00469946124693625
+    },
+    {
+      "iteration": 18,
+      "fixed_candidate_rmse": 0.4587565807003447,
+      "optimal_increment_weights": [
+        1.2525028625126042,
+        1.5088895465983772,
+        1.1785311178680462
+      ],
+      "refitted_prediction_rms_shift": 0.002024022004840957
+    },
+    {
+      "iteration": 19,
+      "fixed_candidate_rmse": 0.4584212630561174,
+      "optimal_increment_weights": [
+        1.2544938924017677,
+        1.5197596138061102,
+        1.1957532542670968
+      ],
+      "refitted_prediction_rms_shift": 0.003286304096336913
+    },
+    {
+      "iteration": 20,
+      "fixed_candidate_rmse": 0.4582734369297803,
+      "optimal_increment_weights": [
+        1.2674231974457664,
+        1.520232198552688,
+        1.1850185937343076
+      ],
+      "refitted_prediction_rms_shift": 0.0030392836276828586
+    },
+    {
+      "iteration": 21,
+      "fixed_candidate_rmse": 0.45867154592314824,
+      "optimal_increment_weights": [
+        1.2544773028983323,
+        1.5067208602394604,
+        1.1876024919804626
+      ],
+      "refitted_prediction_rms_shift": 0.0016443972445728857
+    },
+    {
+      "iteration": 22,
+      "fixed_candidate_rmse": 0.45842777198493306,
+      "optimal_increment_weights": [
+        1.2627977517961768,
+        1.5153273007422006,
+        1.1835837332642307
+      ],
+      "refitted_prediction_rms_shift": 0.002002566007506494
+    },
+    {
+      "iteration": 23,
+      "fixed_candidate_rmse": 0.4584605904871078,
+      "optimal_increment_weights": [
+        1.266413970247909,
+        1.5036606790016587,
+        1.1893155002810083
+      ],
+      "refitted_prediction_rms_shift": 0.001509155114401521
+    },
+    {
+      "iteration": 24,
+      "fixed_candidate_rmse": 0.45875853474479217,
+      "optimal_increment_weights": [
+        1.2608680531739183,
+        1.4962739675689503,
+        1.1804857624442535
+      ],
+      "refitted_prediction_rms_shift": 0.0006750956183045786
+    },
+    {
+      "iteration": 25,
+      "fixed_candidate_rmse": 0.45870220928480454,
+      "optimal_increment_weights": [
+        1.2629659156493183,
+        1.4992842953133747,
+        1.177230072072521
+      ],
+      "refitted_prediction_rms_shift": 0.000896816238279343
+    },
+    {
+      "iteration": 26,
+      "fixed_candidate_rmse": 0.4589295439283079,
+      "optimal_increment_weights": [
+        1.2759856654688675,
+        1.4718636275859276,
+        1.1686948553321277
+      ],
+      "refitted_prediction_rms_shift": 0.0048209619619833735
+    },
+    {
+      "iteration": 27,
+      "fixed_candidate_rmse": 0.45863054295519534,
+      "optimal_increment_weights": [
+        1.2750977945105393,
+        1.492404552340868,
+        1.1710529583125975
+      ],
+      "refitted_prediction_rms_shift": 0.003279016304263638
+    },
+    {
+      "iteration": 28,
+      "fixed_candidate_rmse": 0.45889801992509577,
+      "optimal_increment_weights": [
+        1.2597887950278097,
+        1.487839165894022,
+        1.182446062081663
+      ],
+      "refitted_prediction_rms_shift": 0.0017369135237518343
+    },
+    {
+      "iteration": 29,
+      "fixed_candidate_rmse": 0.4590809820290987,
+      "optimal_increment_weights": [
+        1.2528997911265578,
+        1.4897272221250126,
+        1.173476657975344
+      ],
+      "refitted_prediction_rms_shift": 0.0027613253172888816
+    },
+    {
+      "iteration": 30,
+      "fixed_candidate_rmse": 0.4589999222859361,
+      "optimal_increment_weights": [
+        1.2452061863607429,
+        1.5009248902538552,
+        1.1829944040055769
+      ],
+      "refitted_prediction_rms_shift": 0.003227434496051532
+    },
+    {
+      "iteration": 31,
+      "fixed_candidate_rmse": 0.45821551414655176,
+      "optimal_increment_weights": [
+        1.252072563843968,
+        1.5337578935455876,
+        1.2008315415679487
+      ],
+      "refitted_prediction_rms_shift": 0.00518012698947159
+    },
+    {
+      "iteration": 32,
+      "fixed_candidate_rmse": 0.4585023147750079,
+      "optimal_increment_weights": [
+        1.2473877464692151,
+        1.530315733844557,
+        1.1861469091430246
+      ],
+      "refitted_prediction_rms_shift": 0.004414507636778986
+    },
+    {
+      "iteration": 33,
+      "fixed_candidate_rmse": 0.458755181720442,
+      "optimal_increment_weights": [
+        1.2689806014458533,
+        1.4878940623677814,
+        1.1743949497090105
+      ],
+      "refitted_prediction_rms_shift": 0.0023981164842984933
+    },
+    {
+      "iteration": 34,
+      "fixed_candidate_rmse": 0.458743240807085,
+      "optimal_increment_weights": [
+        1.2456029262460162,
+        1.5152809544733288,
+        1.1850584080286783
+      ],
+      "refitted_prediction_rms_shift": 0.0034230975508156712
+    },
+    {
+      "iteration": 35,
+      "fixed_candidate_rmse": 0.45822996438226243,
+      "optimal_increment_weights": [
+        1.2711934326619154,
+        1.5198246431100926,
+        1.1800126758733087
+      ],
+      "refitted_prediction_rms_shift": 0.0034703226195455968
+    },
+    {
+      "iteration": 36,
+      "fixed_candidate_rmse": 0.4588043072531957,
+      "optimal_increment_weights": [
+        1.2709483437447784,
+        1.4843411371975757,
+        1.1734296525838441
+      ],
+      "refitted_prediction_rms_shift": 0.0029503412193836926
+    },
+    {
+      "iteration": 37,
+      "fixed_candidate_rmse": 0.4584958013277631,
+      "optimal_increment_weights": [
+        1.2555898019570233,
+        1.5210521823279033,
+        1.1835958011240673
+      ],
+      "refitted_prediction_rms_shift": 0.0027337082731329347
+    },
+    {
+      "iteration": 38,
+      "fixed_candidate_rmse": 0.4589905955784205,
+      "optimal_increment_weights": [
+        1.2746701153400202,
+        1.4677244042239517,
+        1.1703876743316146
+      ],
+      "refitted_prediction_rms_shift": 0.004993604424966847
+    },
+    {
+      "iteration": 39,
+      "fixed_candidate_rmse": 0.45825404996109054,
+      "optimal_increment_weights": [
+        1.2491819750322508,
+        1.535474413169576,
+        1.2037135180261012
+      ],
+      "refitted_prediction_rms_shift": 0.0057270784784902
+    },
+    {
+      "iteration": 40,
+      "fixed_candidate_rmse": 0.4587838878654383,
+      "optimal_increment_weights": [
+        1.2520194039685233,
+        1.5071506294899195,
+        1.1809598819896419
+      ],
+      "refitted_prediction_rms_shift": 0.0019446151531427264
+    },
+    {
+      "iteration": 41,
+      "fixed_candidate_rmse": 0.4582874449199998,
+      "optimal_increment_weights": [
+        1.2769530541319711,
+        1.505736469556829,
+        1.1832039249467454
+      ],
+      "refitted_prediction_rms_shift": 0.0032988721486126764
+    },
+    {
+      "iteration": 42,
+      "fixed_candidate_rmse": 0.4583538924902244,
+      "optimal_increment_weights": [
+        1.262264509592549,
+        1.515544520392903,
+        1.1911025042753616
+      ],
+      "refitted_prediction_rms_shift": 0.0023543966218130398
+    },
+    {
+      "iteration": 43,
+      "fixed_candidate_rmse": 0.4586371458045296,
+      "optimal_increment_weights": [
+        1.274177784415441,
+        1.4890674487595472,
+        1.1767710772733337
+      ],
+      "refitted_prediction_rms_shift": 0.002879026597447546
+    },
+    {
+      "iteration": 44,
+      "fixed_candidate_rmse": 0.4591694016652684,
+      "optimal_increment_weights": [
+        1.2586418904245944,
+        1.477078371786871,
+        1.1686863372552099
+      ],
+      "refitted_prediction_rms_shift": 0.0038326578806652644
+    },
+    {
+      "iteration": 45,
+      "fixed_candidate_rmse": 0.4586201848885552,
+      "optimal_increment_weights": [
+        1.2659016129769651,
+        1.4974259504271326,
+        1.1835052259521306
+      ],
+      "refitted_prediction_rms_shift": 0.0009303248458714391
+    },
+    {
+      "iteration": 46,
+      "fixed_candidate_rmse": 0.4594046118071143,
+      "optimal_increment_weights": [
+        1.237604586760187,
+        1.4855179501931723,
+        1.1779722470972909
+      ],
+      "refitted_prediction_rms_shift": 0.005489692962579242
+    },
+    {
+      "iteration": 47,
+      "fixed_candidate_rmse": 0.4584322892235854,
+      "optimal_increment_weights": [
+        1.2628379368520735,
+        1.5143465841421484,
+        1.1855560291627145
+      ],
+      "refitted_prediction_rms_shift": 0.0019203308386453355
+    },
+    {
+      "iteration": 48,
+      "fixed_candidate_rmse": 0.4587052962814025,
+      "optimal_increment_weights": [
+        1.263372405914071,
+        1.4929542208308029,
+        1.1875623891416338
+      ],
+      "refitted_prediction_rms_shift": 0.001228294721762393
+    },
+    {
+      "iteration": 49,
+      "fixed_candidate_rmse": 0.45894044542275203,
+      "optimal_increment_weights": [
+        1.2415506579696571,
+        1.5084170092614446,
+        1.185846579976734
+      ],
+      "refitted_prediction_rms_shift": 0.003951885434542033
+    },
+    {
+      "iteration": 50,
+      "fixed_candidate_rmse": 0.4587595366121065,
+      "optimal_increment_weights": [
+        1.2623216965298565,
+        1.4907730674847606,
+        1.1856747973044404
+      ],
+      "refitted_prediction_rms_shift": 0.0013247703047947043
+    },
+    {
+      "iteration": 51,
+      "fixed_candidate_rmse": 0.4582160765998892,
+      "optimal_increment_weights": [
+        1.2513229085370208,
+        1.5394466269241809,
+        1.1958582271520162
+      ],
+      "refitted_prediction_rms_shift": 0.005494171383972557
+    },
+    {
+      "iteration": 52,
+      "fixed_candidate_rmse": 0.4588788380250298,
+      "optimal_increment_weights": [
+        1.2749621286541002,
+        1.4744384301075049,
+        1.174951699453952
+      ],
+      "refitted_prediction_rms_shift": 0.004144221438833294
+    },
+    {
+      "iteration": 53,
+      "fixed_candidate_rmse": 0.4590470888459776,
+      "optimal_increment_weights": [
+        1.266131769922491,
+        1.471262537121389,
+        1.1769549326676256
+      ],
+      "refitted_prediction_rms_shift": 0.003871132476542496
+    },
+    {
+      "iteration": 54,
+      "fixed_candidate_rmse": 0.4587684735383957,
+      "optimal_increment_weights": [
+        1.2688710504197782,
+        1.4876087727616492,
+        1.1769757667696283
+      ],
+      "refitted_prediction_rms_shift": 0.002230861723086202
+    },
+    {
+      "iteration": 55,
+      "fixed_candidate_rmse": 0.4586199762590172,
+      "optimal_increment_weights": [
+        1.2503912920155862,
+        1.5156259066243305,
+        1.188451357818966
+      ],
+      "refitted_prediction_rms_shift": 0.002821935612875509
+    },
+    {
+      "iteration": 56,
+      "fixed_candidate_rmse": 0.4587324589090493,
+      "optimal_increment_weights": [
+        1.2530757727615098,
+        1.502712641334345,
+        1.1916878358945644
+      ],
+      "refitted_prediction_rms_shift": 0.0021125900341842376
+    },
+    {
+      "iteration": 57,
+      "fixed_candidate_rmse": 0.45879497319360435,
+      "optimal_increment_weights": [
+        1.2769738821108376,
+        1.4776771851609225,
+        1.1722864620424858
+      ],
+      "refitted_prediction_rms_shift": 0.004232029003446276
+    },
+    {
+      "iteration": 58,
+      "fixed_candidate_rmse": 0.4585861515207958,
+      "optimal_increment_weights": [
+        1.2651914023203483,
+        1.5004756413299394,
+        1.182863460308742
+      ],
+      "refitted_prediction_rms_shift": 0.0007603008169692896
+    },
+    {
+      "iteration": 59,
+      "fixed_candidate_rmse": 0.45828632875888287,
+      "optimal_increment_weights": [
+        1.259288532665254,
+        1.5290446150311086,
+        1.1865506882853645
+      ],
+      "refitted_prediction_rms_shift": 0.0037152211907241915
+    },
+    {
+      "iteration": 60,
+      "fixed_candidate_rmse": 0.45840931536583096,
+      "optimal_increment_weights": [
+        1.2615835439450651,
+        1.5126079780641204,
+        1.193980371831616
+      ],
+      "refitted_prediction_rms_shift": 0.002307846965813881
+    },
+    {
+      "iteration": 61,
+      "fixed_candidate_rmse": 0.45843259544056847,
+      "optimal_increment_weights": [
+        1.264034459044578,
+        1.5092668570594363,
+        1.1873710317572357
+      ],
+      "refitted_prediction_rms_shift": 0.0015035465988938845
+    },
+    {
+      "iteration": 62,
+      "fixed_candidate_rmse": 0.4581693956879862,
+      "optimal_increment_weights": [
+        1.2412138489057853,
+        1.5550469048900288,
+        1.1999648685575146
+      ],
+      "refitted_prediction_rms_shift": 0.007981837526443243
+    },
+    {
+      "iteration": 63,
+      "fixed_candidate_rmse": 0.45839374304034974,
+      "optimal_increment_weights": [
+        1.261146277634599,
+        1.5123172815914576,
+        1.1957011424613353
+      ],
+      "refitted_prediction_rms_shift": 0.002468899229165768
+    },
+    {
+      "iteration": 64,
+      "fixed_candidate_rmse": 0.45869369092884205,
+      "optimal_increment_weights": [
+        1.2671526288199026,
+        1.4893525418537894,
+        1.1852427824185763
+      ],
+      "refitted_prediction_rms_shift": 0.0017356780349766618
+    },
+    {
+      "iteration": 65,
+      "fixed_candidate_rmse": 0.4586156991289,
+      "optimal_increment_weights": [
+        1.2724177474861975,
+        1.491126838624798,
+        1.1815584217524169
+      ],
+      "refitted_prediction_rms_shift": 0.0023412116372818173
+    },
+    {
+      "iteration": 66,
+      "fixed_candidate_rmse": 0.45965563244412333,
+      "optimal_increment_weights": [
+        1.2447245526343746,
+        1.4634017238072579,
+        1.1710133488902055
+      ],
+      "refitted_prediction_rms_shift": 0.006568042780925267
+    },
+    {
+      "iteration": 67,
+      "fixed_candidate_rmse": 0.4586551094773212,
+      "optimal_increment_weights": [
+        1.2804167493456724,
+        1.4823286169048302,
+        1.1719458584885367
+      ],
+      "refitted_prediction_rms_shift": 0.004436685532159003
+    },
+    {
+      "iteration": 68,
+      "fixed_candidate_rmse": 0.4582624616110469,
+      "optimal_increment_weights": [
+        1.2748004231956,
+        1.5085552177414017,
+        1.186172525259
+      ],
+      "refitted_prediction_rms_shift": 0.0030841640126100995
+    },
+    {
+      "iteration": 69,
+      "fixed_candidate_rmse": 0.45920144956861575,
+      "optimal_increment_weights": [
+        1.244638017014148,
+        1.487385313663979,
+        1.1826495399048054
+      ],
+      "refitted_prediction_rms_shift": 0.004013048667531265
+    },
+    {
+      "iteration": 70,
+      "fixed_candidate_rmse": 0.4583326704717957,
+      "optimal_increment_weights": [
+        1.2682154989231809,
+        1.5129293974233446,
+        1.1886189176172832
+      ],
+      "refitted_prediction_rms_shift": 0.0024501517885936472
+    },
+    {
+      "iteration": 71,
+      "fixed_candidate_rmse": 0.4593400825214592,
+      "optimal_increment_weights": [
+        1.2654740219582603,
+        1.4566165814531677,
+        1.1694483373133773
+      ],
+      "refitted_prediction_rms_shift": 0.005987488549526463
+    },
+    {
+      "iteration": 72,
+      "fixed_candidate_rmse": 0.4594418960095259,
+      "optimal_increment_weights": [
+        1.245217883511186,
+        1.4793287759866547,
+        1.1639161235234596
+      ],
+      "refitted_prediction_rms_shift": 0.005398835809143792
+    },
+    {
+      "iteration": 73,
+      "fixed_candidate_rmse": 0.4582284182039493,
+      "optimal_increment_weights": [
+        1.2633467740402433,
+        1.5212041531630032,
+        1.1966623195170183
+      ],
+      "refitted_prediction_rms_shift": 0.003481582804335919
+    },
+    {
+      "iteration": 74,
+      "fixed_candidate_rmse": 0.45858684098291824,
+      "optimal_increment_weights": [
+        1.2594472146228899,
+        1.5114855368745923,
+        1.1775767547484062
+      ],
+      "refitted_prediction_rms_shift": 0.001618573666826384
+    },
+    {
+      "iteration": 75,
+      "fixed_candidate_rmse": 0.459193581756329,
+      "optimal_increment_weights": [
+        1.2644146957881492,
+        1.4690495152873644,
+        1.1696912012141751
+      ],
+      "refitted_prediction_rms_shift": 0.004496454502029632
+    },
+    {
+      "iteration": 76,
+      "fixed_candidate_rmse": 0.45926873700686305,
+      "optimal_increment_weights": [
+        1.2685813986496985,
+        1.4607646423804999,
+        1.163594671996496
+      ],
+      "refitted_prediction_rms_shift": 0.005889964011621865
+    },
+    {
+      "iteration": 77,
+      "fixed_candidate_rmse": 0.4591727580149293,
+      "optimal_increment_weights": [
+        1.2545683370965306,
+        1.483735585086343,
+        1.1704320136723825
+      ],
+      "refitted_prediction_rms_shift": 0.0033316596843609796
+    },
+    {
+      "iteration": 78,
+      "fixed_candidate_rmse": 0.4587090405475836,
+      "optimal_increment_weights": [
+        1.251713228163832,
+        1.5041959578212687,
+        1.192950166289356
+      ],
+      "refitted_prediction_rms_shift": 0.002445117398335396
+    },
+    {
+      "iteration": 79,
+      "fixed_candidate_rmse": 0.4584627928784373,
+      "optimal_increment_weights": [
+        1.2627659593921159,
+        1.5094505570053767,
+        1.1890552814127
+      ],
+      "refitted_prediction_rms_shift": 0.0015575839765180528
+    },
+    {
+      "iteration": 80,
+      "fixed_candidate_rmse": 0.458698696300007,
+      "optimal_increment_weights": [
+        1.2670824636841855,
+        1.4922975457067738,
+        1.179471471995772
+      ],
+      "refitted_prediction_rms_shift": 0.0015095149235380145
+    },
+    {
+      "iteration": 81,
+      "fixed_candidate_rmse": 0.4585748309046046,
+      "optimal_increment_weights": [
+        1.274510980146622,
+        1.4873945401768465,
+        1.185777485280966
+      ],
+      "refitted_prediction_rms_shift": 0.002913640416979925
+    },
+    {
+      "iteration": 82,
+      "fixed_candidate_rmse": 0.45859762919536756,
+      "optimal_increment_weights": [
+        1.259872952208201,
+        1.5063217566628078,
+        1.1842975026140943
+      ],
+      "refitted_prediction_rms_shift": 0.0007986771359301635
+    },
+    {
+      "iteration": 83,
+      "fixed_candidate_rmse": 0.457836760917722,
+      "optimal_increment_weights": [
+        1.2699678651528203,
+        1.5423587091211672,
+        1.1920446166486902
+      ],
+      "refitted_prediction_rms_shift": 0.006150942320890664
+    },
+    {
+      "iteration": 84,
+      "fixed_candidate_rmse": 0.4584697554183227,
+      "optimal_increment_weights": [
+        1.2840926118840295,
+        1.4843766873689126,
+        1.1818863978694683
+      ],
+      "refitted_prediction_rms_shift": 0.004670831684141984
+    },
+    {
+      "iteration": 85,
+      "fixed_candidate_rmse": 0.45864969067067357,
+      "optimal_increment_weights": [
+        1.268840311101599,
+        1.4951412491803477,
+        1.1787571645584538
+      ],
+      "refitted_prediction_rms_shift": 0.0016505300842966733
+    },
+    {
+      "iteration": 86,
+      "fixed_candidate_rmse": 0.45894758960137133,
+      "optimal_increment_weights": [
+        1.2601843999807854,
+        1.4872778075009059,
+        1.1741086485542422
+      ],
+      "refitted_prediction_rms_shift": 0.0022079544254180452
+    },
+    {
+      "iteration": 87,
+      "fixed_candidate_rmse": 0.4580632233623996,
+      "optimal_increment_weights": [
+        1.26280660807586,
+        1.5355996634802804,
+        1.1944718744476555
+      ],
+      "refitted_prediction_rms_shift": 0.004952181113478329
+    },
+    {
+      "iteration": 88,
+      "fixed_candidate_rmse": 0.45887578561422426,
+      "optimal_increment_weights": [
+        1.2696846642919692,
+        1.484280215165513,
+        1.165062474863517
+      ],
+      "refitted_prediction_rms_shift": 0.0036211159719320134
+    },
+    {
+      "iteration": 89,
+      "fixed_candidate_rmse": 0.45880436284385245,
+      "optimal_increment_weights": [
+        1.246447237211186,
+        1.5086039572502832,
+        1.186627679800298
+      ],
+      "refitted_prediction_rms_shift": 0.0030491293713403944
+    },
+    {
+      "iteration": 90,
+      "fixed_candidate_rmse": 0.4583702378072634,
+      "optimal_increment_weights": [
+        1.2774812277520309,
+        1.5014754783742994,
+        1.1816092155868119
+      ],
+      "refitted_prediction_rms_shift": 0.003247564949351911
+    },
+    {
+      "iteration": 91,
+      "fixed_candidate_rmse": 0.4585722652540946,
+      "optimal_increment_weights": [
+        1.2531531133314222,
+        1.5145963898873767,
+        1.189189429001472
+      ],
+      "refitted_prediction_rms_shift": 0.0024442337022099105
+    },
+    {
+      "iteration": 92,
+      "fixed_candidate_rmse": 0.4589264577879623,
+      "optimal_increment_weights": [
+        1.25111649176332,
+        1.504225066089465,
+        1.1712628381764854
+      ],
+      "refitted_prediction_rms_shift": 0.0026654640337106226
+    },
+    {
+      "iteration": 93,
+      "fixed_candidate_rmse": 0.4589272622663287,
+      "optimal_increment_weights": [
+        1.267136974661152,
+        1.475519319026209,
+        1.181985221077659
+      ],
+      "refitted_prediction_rms_shift": 0.0032688477823670284
+    },
+    {
+      "iteration": 94,
+      "fixed_candidate_rmse": 0.4587341476239662,
+      "optimal_increment_weights": [
+        1.2592756881575242,
+        1.5033806207339726,
+        1.1758639055882625
+      ],
+      "refitted_prediction_rms_shift": 0.0011592580828491332
+    },
+    {
+      "iteration": 95,
+      "fixed_candidate_rmse": 0.4588204905191838,
+      "optimal_increment_weights": [
+        1.2714678409003273,
+        1.4804760621981596,
+        1.178755432629986
+      ],
+      "refitted_prediction_rms_shift": 0.0030767887742684887
+    },
+    {
+      "iteration": 96,
+      "fixed_candidate_rmse": 0.45886240140562373,
+      "optimal_increment_weights": [
+        1.2675907969530695,
+        1.4798099354303287,
+        1.1802170431098793
+      ],
+      "refitted_prediction_rms_shift": 0.0027996843903141328
+    },
+    {
+      "iteration": 97,
+      "fixed_candidate_rmse": 0.4587488700401637,
+      "optimal_increment_weights": [
+        1.2574293770201121,
+        1.4947769069828722,
+        1.1912057847149917
+      ],
+      "refitted_prediction_rms_shift": 0.0017264774873384603
+    },
+    {
+      "iteration": 98,
+      "fixed_candidate_rmse": 0.4589120546893033,
+      "optimal_increment_weights": [
+        1.2471144813268753,
+        1.5053538163076698,
+        1.177775489963545
+      ],
+      "refitted_prediction_rms_shift": 0.0029151335675762515
+    },
+    {
+      "iteration": 99,
+      "fixed_candidate_rmse": 0.45879349301540256,
+      "optimal_increment_weights": [
+        1.2581969957572676,
+        1.5004799999667315,
+        1.1750068442300912
+      ],
+      "refitted_prediction_rms_shift": 0.0013309208475099617
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "measured_score": 0.60061,
+  "original_best_score": 0.62717,
+  "direction_q_full_test": 0.028219275947764882,
+  "nominal_weight": 1.0777936482204975,
+  "nominal_rmse_forecast": 0.6004678119822787,
+  "forecast_improvement": 0.00014218801772125644,
+  "random_public_subset_q_standard_error": 0.00021406000345235078,
+  "q_stress_forecasts": [
+    {
+      "q": 0.02757709593740783,
+      "rmse_at_nominal_weight": 0.6004229753455274
+    },
+    {
+      "q": 0.028861455958121934,
+      "rmse_at_nominal_weight": 0.6005126452713505
+    }
+  ],
+  "note": "Forecast, not private validation; public subset moment is unknown.",
+  "decision": "Do not spend a submission on a negligible same-direction adjustment."
+}

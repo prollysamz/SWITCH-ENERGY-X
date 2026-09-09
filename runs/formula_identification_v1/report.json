@@ -1,0 +1,226 @@
+{
+  "status": "Formula identification diagnostic only; no new submission.",
+  "retained_score_directions": 6,
+  "direction_energy_cutoff": 0.025,
+  "heldout_file": "runs/temperature_slope_v1/submission_temperature_slope.csv",
+  "results": [
+    {
+      "family": "usable_net",
+      "target_mean_assumed": 3.9,
+      "coefficients": [
+        2.2463338699899054,
+        -2.8904837225619606,
+        -0.00016400039157549173
+      ],
+      "thermal_threshold": 36.27115487404443,
+      "thermal_power": 3.4999999738281513,
+      "projection_fit_rms": 0.08081365366740936,
+      "model_implied_residual_variance": -54.10453602598596,
+      "heldout_score_reported_rounded": 0.84,
+      "heldout_score_forecast": 0.9533859626762983,
+      "heldout_score_error": 0.1133859626762983,
+      "rms_change_from_best": 7.384863653228696,
+      "prediction_sd": 11.720232163623793,
+      "prediction_min": -71.64041405567362,
+      "prediction_max": 53.79997347263691,
+      "historical_score_checks": [
+        {
+          "file": "submission.csv",
+          "reported_rmse": 2.53192,
+          "forecast": 2.529499087935949,
+          "used_for_fit": true
+        },
+        {
+          "file": "candidates/submission_combined.csv",
+          "reported_rmse": 1.83716,
+          "forecast": 1.834837108393604,
+          "used_for_fit": true
+        },
+        {
+          "file": "candidates/submission_battery.csv",
+          "reported_rmse": 2.8156,
+          "forecast": 2.817260008816299,
+          "used_for_fit": true
+        },
+        {
+          "file": "candidates/submission_tuned_heat.csv",
+          "reported_rmse": 1.08381,
+          "forecast": 1.0726028101510603,
+          "used_for_fit": true
+        },
+        {
+          "file": "candidates/submission_refined_plane.csv",
+          "reported_rmse": 0.78886,
+          "forecast": 0.7878147552373944,
+          "used_for_fit": true
+        },
+        {
+          "file": "runs/reconstruction_v1/submission_reconstruction_repaired.csv",
+          "reported_rmse": 0.75,
+          "forecast": 0.7741054787277066,
+          "used_for_fit": true
+        },
+        {
+          "file": "candidates/submission_thermal_tail.csv",
+          "reported_rmse": 0.84,
+          "forecast": 0.8399999999999982,
+          "used_for_fit": true
+        },
+        {
+          "file": "candidates/submission_blend_v2.csv",
+          "reported_rmse": 0.71269,
+          "forecast": 0.7110556902664239,
+          "used_for_fit": true
+        },
+        {
+          "file": "runs/interaction_v1/submission_generation_heat.csv",
+          "reported_rmse": 0.94148,
+          "forecast": 0.8299948040290829,
+          "used_for_fit": true
+        },
+        {
+          "file": "runs/thermal_reference_v1/submission_quadratic_heat25.csv",
+          "reported_rmse": 0.62717,
+          "forecast": 0.6612003907861549,
+          "used_for_fit": true
+        },
+        {
+          "file": "runs/thermal_calibrated_v1/submission_thermal_calibrated.csv",
+          "reported_rmse": 0.60061,
+          "forecast": 0.660733565692948,
+          "used_for_fit": true
+        },
+        {
+          "file": "runs/observed_thermal_v1/submission_observed_temperature.csv",
+          "reported_rmse": 0.64514,
+          "forecast": 0.7068856823711354,
+          "used_for_fit": true
+        },
+        {
+          "file": "runs/temperature_slope_v1/submission_temperature_slope.csv",
+          "reported_rmse": 0.84,
+          "forecast": 0.9533859626762983,
+          "used_for_fit": false
+        },
+        {
+          "file": "runs/deterministic_v1/submission_deterministic.csv",
+          "reported_rmse": 0.60058,
+          "forecast": 0.6570199013672535,
+          "used_for_fit": true
+        }
+      ]
+    },
+    {
+      "family": "gross_net",
+      "target_mean_assumed": 3.9,
+      "coefficients": [
+        0.7685860810131306,
+        -0.374189612458102,
+        -2.5416485361751118e-05
+      ],
+      "thermal_threshold": 14.57694735905402,
+      "thermal_power": 3.355539132046024,
+      "projection_fit_rms": 0.006360026352245563,
+      "model_implied_residual_variance": -0.11181860098949525,
+      "heldout_score_reported_rounded": 0.84,
+      "heldout_score_forecast": 0.7958840442026486,
+      "heldout_score_error": -0.04411595579735139,
+      "rms_change_from_best": 0.687052168906148,
+      "prediction_sd": 5.291895636181104,
+      "prediction_min": -21.934362605097284,
+      "prediction_max": 22.51103622036294,
+      "historical_score_checks": [
+        {
+          "file": "submission.csv",
+          "reported_rmse": 2.53192,
+          "forecast": 2.529678797231185,
+          "used_for_fit": true
+        },
+        {
+          "file": "candidates/submission_combined.csv",
+          "reported_rmse": 1.83716,
+          "forecast": 1.8348531691839618,
+          "used_for_fit": true
+        },
+        {
+          "file": "candidates/submission_battery.csv",
+          "reported_rmse": 2.8156,
+          "forecast": 2.8178772405438806,
+          "used_for_fit": true
+        },
+        {
+          "file": "candidates/submission_tuned_heat.csv",
+          "reported_rmse": 1.08381,
+          "forecast": 1.0705888576223264,
+          "used_for_fit": true
+        },
+        {
+          "file": "candidates/submission_refined_plane.csv",
+          "reported_rmse": 0.78886,
+          "forecast": 0.7847943778167751,
+          "used_for_fit": true
+        },
+        {
+          "file": "runs/reconstruction_v1/submission_reconstruction_repaired.csv",
+          "reported_rmse": 0.75,
+          "forecast": 0.7766808896808922,
+          "used_for_fit": true
+        },
+        {
+          "file": "candidates/submission_thermal_tail.csv",
+          "reported_rmse": 0.84,
+          "forecast": 0.84,
+          "used_for_fit": true
+        },
+        {
+          "file": "candidates/submission_blend_v2.csv",
+          "reported_rmse": 0.71269,
+          "forecast": 0.7129076415714647,
+          "used_for_fit": true
+        },
+        {
+          "file": "runs/interaction_v1/submission_generation_heat.csv",
+          "reported_rmse": 0.94148,
+          "forecast": 0.9399133237420909,
+          "used_for_fit": true
+        },
+        {
+          "file": "runs/thermal_reference_v1/submission_quadratic_heat25.csv",
+          "reported_rmse": 0.62717,
+          "forecast": 0.6297482316238407,
+          "used_for_fit": true
+        },
+        {
+          "file": "runs/thermal_calibrated_v1/submission_thermal_calibrated.csv",
+          "reported_rmse": 0.60061,
+          "forecast": 0.6017737311406763,
+          "used_for_fit": true
+        },
+        {
+          "file": "runs/observed_thermal_v1/submission_observed_temperature.csv",
+          "reported_rmse": 0.64514,
+          "forecast": 0.6507319871604103,
+          "used_for_fit": true
+        },
+        {
+          "file": "runs/temperature_slope_v1/submission_temperature_slope.csv",
+          "reported_rmse": 0.84,
+          "forecast": 0.7958840442026486,
+          "used_for_fit": false
+        },
+        {
+          "file": "runs/deterministic_v1/submission_deterministic.csv",
+          "reported_rmse": 0.60058,
+          "forecast": 0.6001850396412268,
+          "used_for_fit": true
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Full-test moments approximate unknown public-subset moments.",
+    "Historical public scores are adaptive feedback, including rounded scores.",
+    "A fitted parametric family can match measured projections while being wrong elsewhere.",
+    "Residual variance is conditional on the formula assumption, not an identified noise floor."
+  ]
+}

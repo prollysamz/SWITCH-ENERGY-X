@@ -1,0 +1,22 @@
+{
+  "status": "Small continuation after the measured 0.45067 result.",
+  "candidate": "runs/successful_components_v3/submission_successful_components_v3.csv",
+  "sha256": "51886e681f9fc69d8f47c44e6500e0bc92bbb28472b735f6e1625b9167a90ffd",
+  "incumbent_file": "candidates/submission_best_0p45067.csv",
+  "incumbent_sha256": "c5a011c5202c909c4841cfacf67ebf1434329a1994c41ee012791af47176b24c",
+  "incumbent_rmse": 0.45067,
+  "base_file": "candidates/submission_best_0p46182.csv",
+  "base_rmse": 0.46182,
+  "source_direction_file": "runs/successful_components_v2/submission_successful_components_v2.csv",
+  "source_direction_sha256": "c5a011c5202c909c4841cfacf67ebf1434329a1994c41ee012791af47176b24c",
+  "source_direction_rmse": 0.45067,
+  "direction_weight_from_corrected_base": 1.05,
+  "direction_rms": 0.09767688298738762,
+  "max_absolute_change_from_corrected_base": 0.9602750978186387,
+  "allow_score_calibration": false,
+  "limitations": [
+    "The continuation uses the corrected public endpoint pair and full-test moments.",
+    "The public subset is structured and private performance is unverified.",
+    "This is a small measured-direction probe, not independent target validation."
+  ]
+}

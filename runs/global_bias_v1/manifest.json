@@ -1,0 +1,19 @@
+{
+  "status": "UNSCORED diagnostic, not an asserted improvement",
+  "candidate": "runs/global_bias_v1/submission_bias_plus_0p10.csv",
+  "sha256": "6a2fff3c2157ab56232d0f4fa096e552e51c6cc5b0f040b545019117c45490e7",
+  "incumbent_file": "candidates/submission_best_0p43681.csv",
+  "incumbent_sha256": "caed9bd21dffeea43001655b1db3bb15d289f380bda6f1f845f76ce71597847a",
+  "incumbent_rmse": 0.43681,
+  "constant_shift": 0.1,
+  "baseline_prediction_mean": 3.8874664114936848,
+  "probe_rmse_if_public_bias_is_zero": 0.4481104507819473,
+  "identity": "E_public[y - baseline] = (baseline_RMSE^2 + shift^2 - probe_RMSE^2)/(2*shift)",
+  "score_used_to_choose_shift": false,
+  "limitations": [
+    "Probe may score worse; its purpose is to measure bias.",
+    "One measurement does not determine other residual structure.",
+    "Public bias correction need not equal private bias correction.",
+    "Reported rounded RMSE gives approximate bias; no first-place guarantee."
+  ]
+}

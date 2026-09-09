@@ -1,0 +1,35 @@
+{
+  "status": "UNSCORED measurement probe. Small step to measure one direction cheaply.",
+  "candidate": "runs/measurement_probe_v1/submission_measurement_probe.csv",
+  "sha256": "518489465f51b332c8b8196d914ee548ee7d3ac4bcfd3007b2c5914b91b34de5",
+  "incumbent_file": "runs/successful_components_v3/submission_successful_components_v3.csv",
+  "incumbent_sha256": "51886e681f9fc69d8f47c44e6500e0bc92bbb28472b735f6e1625b9167a90ffd",
+  "incumbent_rmse": 0.45066,
+  "direction": "gen_shape",
+  "direction_source": "perp(E_pm - E_D) against span of all scored submissions",
+  "raw_perp_norm": 1.6353564758635968,
+  "step": 0.05,
+  "orthogonality_leak": 5.50635377294384e-13,
+  "rms_change_from_incumbent": 0.049999999999999996,
+  "max_absolute_change": 1.284504717115933,
+  "inversion_formula": "c = (r^2 + t^2 - s_new^2) / (2*t*r)",
+  "optimal_step_after_measurement": "t_opt = c*r, giving RMSE = r*sqrt(1-c^2)",
+  "predicted_outcomes": {
+    "c=-0.2": 0.46326,
+    "c=-0.1": 0.45837,
+    "c=+0.0": 0.45343,
+    "c=+0.1": 0.44843,
+    "c=+0.2": 0.44337,
+    "c=+0.3": 0.43826,
+    "c=+0.5": 0.42786
+  },
+  "worst_case_loss": 0.00277,
+  "n_rows": 100000,
+  "code_sha256": "2a3251c44d169c22b03e13c863c9a2a7adf8cb86c28eeb527c2da8eac8c3e674",
+  "allow_score_calibration": false,
+  "limitations": [
+    "The direction is orthogonal to every scored submission, so its alignment with the true residual is unmeasured. The score may move either way.",
+    "This probe is designed to MEASURE, not to improve. A small gain or small loss are both informative outcomes.",
+    "Public-subset moments are approximated by full-test moments."
+  ]
+}

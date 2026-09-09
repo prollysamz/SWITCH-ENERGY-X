@@ -1,0 +1,14 @@
+{
+  "coefficients": [
+    2.948854031947142,
+    -0.06279481324714664,
+    -0.027341539183294575
+  ],
+  "formula": "exp(c0+c1*(V-14)+c2*(V-14)^2)",
+  "fit_source": "Dataset/train.csv only; row_id % 5 != 0; observed f18,f13,f10",
+  "fit_rows": 1282,
+  "sensor_holdout_rows": 300,
+  "sensor_holdout_rmse": 0.1569338071982794,
+  "no_target_scores_used": true,
+  "join": "Old spline below 14; smoothstep join 14 to 15"
+}

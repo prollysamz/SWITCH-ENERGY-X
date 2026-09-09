@@ -1,0 +1,10 @@
+{
+  "measured_score": 0.94148,
+  "original_best_score": 0.71269,
+  "direction_q_full_test": 0.25,
+  "nominal_weight": -0.25691510859999966,
+  "nominal_rmse_forecast": 0.7010176123631008,
+  "forecast_improvement": 0.011672387636899262,
+  "note": "Forecast, not private validation; public subset moment is unknown.",
+  "decision": "Do not spend a submission on a negligible same-direction adjustment."
+}

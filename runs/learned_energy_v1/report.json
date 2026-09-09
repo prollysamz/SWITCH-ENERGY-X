@@ -1,0 +1,53 @@
+{
+  "status": "Self-supervised pseudo-target evaluation, not hidden NDEM validation.",
+  "results": [
+    {
+      "regime": "all",
+      "n": 15000,
+      "physics_rmse": 1.4200068701560233,
+      "learned_rmse": 1.3718301330534812,
+      "mse_gain": 0.13450159733677355,
+      "paired_se": 0.02012853871901457
+    },
+    {
+      "regime": "wind",
+      "n": 3007,
+      "physics_rmse": 3.039584231511789,
+      "learned_rmse": 2.92788359907226,
+      "mse_gain": 0.6665699307387828,
+      "paired_se": 0.09976529819994652
+    },
+    {
+      "regime": "thermal",
+      "n": 3432,
+      "physics_rmse": 0.8202892822001617,
+      "learned_rmse": 0.818082368807248,
+      "mse_gain": 0.0036157443391784264,
+      "paired_se": 0.00320946569960151
+    },
+    {
+      "regime": "other",
+      "n": 8561,
+      "physics_rmse": 0.13459824214820887,
+      "learned_rmse": 0.13427721947047322,
+      "mse_gain": 8.63151206662329e-05,
+      "paired_se": 0.00015814758874847063
+    }
+  ],
+  "calibration_weights": {
+    "wind": 0.9856376704517726,
+    "thermal": 0.9290089880811951,
+    "other": 0.3561266399753276
+  },
+  "gate": true,
+  "n_iterations": 121,
+  "teacher": "Frozen 0.60058 functional predictor on richer observations of the same training row.",
+  "target_weights_changed": false,
+  "leaderboard_scores_used_for_learning": false,
+  "limitations": [
+    "Teacher inherits existing target-formula errors; cannot discover missing target terms.",
+    "Artificial outages and naturally missing values may have different conditional distributions.",
+    "Reported RMSE measures teacher recovery, not competition target accuracy."
+  ],
+  "elapsed_seconds": 94.89164876937866
+}

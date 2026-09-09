@@ -1,0 +1,53 @@
+{
+  "status": "Held-out observed-sensor evaluation; no NDEM score.",
+  "results": [
+    {
+      "scenario": "panel",
+      "target_sensor": 7,
+      "n": 8000,
+      "baseline_rmse": 1.3846363260413492,
+      "deterministic_rmse": 1.38639999372003,
+      "mse_reduction": -0.004887187193613431,
+      "paired_mse_reduction_se": 0.004871333643723964,
+      "rms_prediction_change": 0.05090579981221539
+    },
+    {
+      "scenario": "panel_loss",
+      "target_sensor": 7,
+      "n": 8000,
+      "baseline_rmse": 1.8815836139351998,
+      "deterministic_rmse": 1.884017314051533,
+      "mse_reduction": -0.009164343416505898,
+      "paired_mse_reduction_se": 0.010504604036398926,
+      "rms_prediction_change": 0.09614615399697549
+    },
+    {
+      "scenario": "panel_loss_ambient",
+      "target_sensor": 7,
+      "n": 8000,
+      "baseline_rmse": 3.2183199459314533,
+      "deterministic_rmse": 3.2148459837551537,
+      "mse_reduction": 0.022348575113590004,
+      "paired_mse_reduction_se": 0.0202206743307787,
+      "rms_prediction_change": 0.1869843814849681
+    },
+    {
+      "scenario": "humidity",
+      "target_sensor": 3,
+      "n": 8000,
+      "baseline_rmse": 7.965478928420055,
+      "deterministic_rmse": 7.9566432118167825,
+      "mse_reduction": 0.14068335895381678,
+      "paired_mse_reduction_se": 0.09529473697332122,
+      "rms_prediction_change": 0.3157854772052001
+    }
+  ],
+  "credible_improvement_scenarios": [],
+  "regression_scenarios": [],
+  "gate_for_full_candidate": false,
+  "limitations": [
+    "Natural mask retained for artificially hidden sensors to account for observed-sample selection.",
+    "No ground truth exists for naturally missing cells; transfer to those cells is unverified.",
+    "Fitted failure probabilities and Gaussian posterior approximation can be imperfect."
+  ]
+}

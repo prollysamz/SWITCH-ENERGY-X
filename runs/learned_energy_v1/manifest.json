@@ -1,0 +1,96 @@
+{
+  "status": "Unscored candidate from self-supervised learned corrections.",
+  "candidate": "runs/learned_energy_v1/submission_learned_energy.csv",
+  "sha256": "386c114c02ce2c13055afc004ee4177abff89e30ffe703ba6d1a307e14ffed20",
+  "incumbent_file": "candidates/submission_best_0p60058.csv",
+  "incumbent_sha256": "ef2cba635975b56601a4acfe4d4a5814afa6e7f4cb8941cf9ef6170bee530f36",
+  "incumbent_rmse": 0.60058,
+  "target_rmse_forecast": null,
+  "validation": {
+    "status": "Second disjoint pseudo-target audit; no hidden target labels.",
+    "first_audit_weighted": {
+      "baseline_rmse": 0.21182371780443765,
+      "learned_rmse": 0.2095347168301141,
+      "mse_gain": 0.0009644898674179355,
+      "paired_se": 0.00020937754182959582,
+      "gate": true
+    },
+    "confirmation_weighted": {
+      "baseline_rmse": 0.21539486667993507,
+      "learned_rmse": 0.2131281228244276,
+      "mse_gain": 0.000971351853402691,
+      "paired_se": 0.0001422512707123791,
+      "gate": true
+    },
+    "results": [
+      {
+        "regime": "wind",
+        "n": 6134,
+        "physics_rmse": 3.0950535484260144,
+        "learned_rmse": 2.972217373529361,
+        "mse_gain": 0.74528035211469,
+        "paired_se": 0.07870167180865861
+      },
+      {
+        "regime": "thermal",
+        "n": 7051,
+        "physics_rmse": 0.8602551023498548,
+        "learned_rmse": 0.8599816907920457,
+        "mse_gain": 0.0004703326214135725,
+        "paired_se": 0.0024891137078217962
+      },
+      {
+        "regime": "other",
+        "n": 16815,
+        "physics_rmse": 0.13268696152688894,
+        "learned_rmse": 0.13240392370873086,
+        "mse_gain": 7.503074577068332e-05,
+        "paired_se": 9.098962734833697e-05
+      }
+    ],
+    "natural_test_proportions": {
+      "wind": 0.00119,
+      "thermal": 0.0241,
+      "other": 0.97471
+    },
+    "gate": true,
+    "model_sha256": "9f7461d6b1ac1438411a7012b8aeccf8484b57ff9e98f7e369879f53aee7885d",
+    "limitation": "Within-regime artificial-outage patterns can still differ from natural missingness."
+  },
+  "n_rows": 100000,
+  "calibration_weights": {
+    "wind": 0.9856376704517726,
+    "thermal": 0.9290089880811951,
+    "other": 0.3561266399753276
+  },
+  "rms_prediction_change": 0.028031368137526682,
+  "mean_change": -0.0015332063757604096,
+  "maximum_absolute_change": 2.4512998512786215,
+  "changes_by_regime": {
+    "wind": {
+      "n": 119,
+      "rms": 0.6721195147884512
+    },
+    "thermal": {
+      "n": 2410,
+      "rms": 0.06651239699004233
+    },
+    "other": {
+      "n": 97471,
+      "rms": 0.012051497615554407
+    }
+  },
+  "code_sha256": {
+    "learned_sensor_benchmark.py": "97bddff53defd95cce34a342147cc9b557166f34a5b14b9e89141cea6a29342e",
+    "learned_energy_distillation.py": "411483fbf8df5d91af65ef43daa0cd934eb2ae4760de92cdd98709b9765b28d7",
+    "confirm_learned_energy.py": "d19975c03a6df9ceeaf7b988aa971d48ec36005e7754a64d7cf34c257c86b2d2",
+    "build_learned_energy_submission.py": "154e39ea6234340e8823f03c755f0b8dfbb9b8ace7ea66f6560adf50bc7b6c83"
+  },
+  "limitations": [
+    "No hidden target labels used in these audits.",
+    "The frozen teacher formula remains a source of possible error.",
+    "Observed gains primarily concern rare information-poor wind rows.",
+    "Natural missingness differs from artificial masking; the public score remains unmeasured."
+  ],
+  "allow_score_calibration": false
+}

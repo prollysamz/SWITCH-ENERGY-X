@@ -1,0 +1,56 @@
+{
+  "results": [
+    {
+      "scenario": "temperature",
+      "hidden": [
+        2
+      ],
+      "n": 2000,
+      "baseline_rmse": 1.3615003402289299,
+      "candidate_rmse": 1.2947210558331756,
+      "mse_gain": 0.17738056402571878,
+      "paired_se": 0.060057416292373586
+    },
+    {
+      "scenario": "temperature_sparse",
+      "hidden": [
+        2,
+        7,
+        10,
+        15
+      ],
+      "n": 2000,
+      "baseline_rmse": 4.627615344643003,
+      "candidate_rmse": 3.85741771200521,
+      "mse_gain": 6.535152373083866,
+      "paired_se": 0.4413505884337528
+    },
+    {
+      "scenario": "generation",
+      "hidden": [
+        14
+      ],
+      "n": 2000,
+      "baseline_rmse": 0.5307261282668435,
+      "candidate_rmse": 0.5300286916945997,
+      "mse_gain": 0.0007398092056249776,
+      "paired_se": 0.0011944995671934262
+    },
+    {
+      "scenario": "generation_sparse",
+      "hidden": [
+        14,
+        13,
+        21
+      ],
+      "n": 2000,
+      "baseline_rmse": 1.0922249798848676,
+      "candidate_rmse": 1.094617963309211,
+      "mse_gain": -0.00523307891470588,
+      "paired_se": 0.007955248199778464
+    }
+  ],
+  "target_scores_used": false,
+  "parameters_locked": true,
+  "all_audit_rows_excluded_from_prior_estimation": true
+}

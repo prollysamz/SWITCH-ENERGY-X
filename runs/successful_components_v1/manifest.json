@@ -1,0 +1,85 @@
+{
+  "status": "Unscored joint calibration of three measured directions.",
+  "candidate": "runs/successful_components_v1/submission_successful_components.csv",
+  "sha256": "e481dc4df6d7f636f9039dab625f2c38cbe0748d1b58147d396f0d306f67f34b",
+  "incumbent_file": "candidates/submission_best_0p46182.csv",
+  "incumbent_sha256": "1ffab46ba23c04ac466ba72126fb1f78f8a46626a11a6c405ccb608671bd816d",
+  "incumbent_rmse": 0.46182,
+  "allow_score_calibration": false,
+  "sources": [
+    {
+      "file": "runs/learned_energy_v1/submission_learned_energy.csv",
+      "score": 0.60042,
+      "sha256": "386c114c02ce2c13055afc004ee4177abff89e30ffe703ba6d1a307e14ffed20"
+    },
+    {
+      "file": "runs/solar_contribution_v1/submission_solar_contribution.csv",
+      "score": 0.53504,
+      "sha256": "ec2c74e5732c8c3d6b8f992ccccbdb76b2b242adb6841c18c5b3614604c145f3"
+    },
+    {
+      "file": "runs/compact_blend_v1/submission_compact_blend.csv",
+      "score": 0.49992,
+      "sha256": "76b8432310b193062d874fc53df8abb83e102a7d3783a2aacee94e4885d5e602"
+    },
+    {
+      "file": "runs/generation_curvature_v1/submission_generation_curvature.csv",
+      "score": 0.46182,
+      "sha256": "1ffab46ba23c04ac466ba72126fb1f78f8a46626a11a6c405ccb608671bd816d"
+    }
+  ],
+  "component_names": [
+    "solar",
+    "compact_blend_step",
+    "generation_curvature"
+  ],
+  "nominal_optimal_increment_weights": [
+    1.261385965847352,
+    1.5005152775937505,
+    1.1827915839110394
+  ],
+  "used_increment_weights": [
+    1.2352473692626167,
+    1.4504637498343753,
+    1.1645124255199355
+  ],
+  "step_toward_optimum": 0.9,
+  "nominal_candidate_rmse_forecast": 0.45866876407828494,
+  "full_test_gram": [
+    [
+      0.039999999999999966,
+      0.04444030718353673,
+      0.0444403071835365
+    ],
+    [
+      0.04444030718353673,
+      0.06588511594658485,
+      0.06588511594658811
+    ],
+    [
+      0.0444403071835365,
+      0.06588511594658811,
+      0.08838511594659126
+    ]
+  ],
+  "gram_condition_number": 30.834973638733338,
+  "random_public_moment_mse_standard_error": 0.00035579654981174384,
+  "two_standard_error_upper_rmse_scenario": 0.4594438249021581,
+  "stress_summary": {
+    "random_subsets": 100,
+    "rows_per_subset": 30000,
+    "fixed_candidate_forecast_min": 0.457836760917722,
+    "fixed_candidate_forecast_max": 0.45965563244412333,
+    "p95_refitted_prediction_rms_shift": 0.005735222755146783,
+    "maximum_refitted_prediction_rms_shift": 0.007981837526443243
+  },
+  "rms_change": 0.08493641998903272,
+  "maximum_absolute_change": 0.7952588801810663,
+  "n_rows": 100000,
+  "code_sha256": "c4b0aba40625196bb3073ec2e64453ca912693f8cc85473dad3f7a4654b9fdd2",
+  "limitations": [
+    "Forecasts and stress tests approximate public-subset moments and do not establish private performance.",
+    "The candidate reuses adaptive public feedback; it is not independent target validation.",
+    "No score improvement or rank is guaranteed. Rounded unsuccessful probes were excluded."
+  ]
+}

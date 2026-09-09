@@ -1,0 +1,61 @@
+{
+  "status": "Conditional linearized uncertainty diagnostic; not target validation.",
+  "results": [
+    {
+      "regime": "all",
+      "n": 100000,
+      "fraction": 1.0,
+      "conditional_uncertainty_rms": 0.2500298799615991,
+      "share_of_total_linearized_variance": 1.0
+    },
+    {
+      "regime": "panel_or_loss_observed",
+      "n": 90467,
+      "fraction": 0.90467,
+      "conditional_uncertainty_rms": 0.2006811846925908,
+      "share_of_total_linearized_variance": 0.582800178828662
+    },
+    {
+      "regime": "panel_and_loss_missing",
+      "n": 9533,
+      "fraction": 0.09533,
+      "conditional_uncertainty_rms": 0.5230571855885954,
+      "share_of_total_linearized_variance": 0.4171998211713381
+    },
+    {
+      "regime": "panel_loss_and_ambient_missing",
+      "n": 2414,
+      "fraction": 0.02414,
+      "conditional_uncertainty_rms": 0.9151383952117185,
+      "share_of_total_linearized_variance": 0.32339030405201474
+    },
+    {
+      "regime": "gross_or_frequency_observed",
+      "n": 92495,
+      "fraction": 0.92495,
+      "conditional_uncertainty_rms": 0.22736530680033565,
+      "share_of_total_linearized_variance": 0.7648615453178259
+    },
+    {
+      "regime": "gross_and_frequency_missing",
+      "n": 7505,
+      "fraction": 0.07505,
+      "conditional_uncertainty_rms": 0.44256635423664115,
+      "share_of_total_linearized_variance": 0.23513845468217406
+    },
+    {
+      "regime": "all_direct_wind_indicators_missing",
+      "n": 119,
+      "fraction": 0.00119,
+      "conditional_uncertainty_rms": 2.849061855083276,
+      "share_of_total_linearized_variance": 0.15451366465972494
+    }
+  ],
+  "top_1pct_variance_share": 0.4376524692669946,
+  "limitations": [
+    "Gaussian posterior and assumed target formula may be wrong.",
+    "Local linearization can miss nonlinear and multimodal uncertainty.",
+    "The two model branches are evaluated around the repaired state for this diagnostic.",
+    "Regimes overlap and their variance shares must not be added."
+  ]
+}

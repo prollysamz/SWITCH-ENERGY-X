@@ -1,0 +1,18 @@
+{
+  "status": "UNSCORED exact optimum along measured physics-basis direction",
+  "candidate": "runs/physics_direction_opt_v1/submission_physics_optimal_step.csv",
+  "sha256": "7ca61a657e5991000f2300974e4f6fc245846876a33a8d39931721116908d786",
+  "incumbent_file": "candidates/submission_best_0p43681.csv",
+  "incumbent_rmse": 0.43681,
+  "direction_file": "runs/physics_basis_v1/submission_physics_basis.csv",
+  "direction_rmse": 0.58194,
+  "direction_rms": 0.4328142533905374,
+  "measured_inner_product": 0.01973849521900417,
+  "cosine_to_incumbent_residual": 0.104404667376379,
+  "optimal_step": 0.10536853257354663,
+  "conditional_public_rmse": 0.43442278925438926,
+  "prediction_rms_change": 0.04560500275667611,
+  "target_rmse_forecast": null,
+  "decision": "Do not spend a submission: the measured gain is only about 0.0023 and cannot approach P1.",
+  "limitation": "The public identity is exact up to rounded reported scores; private gain is unmeasured."
+}

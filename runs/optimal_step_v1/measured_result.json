@@ -1,0 +1,7 @@
+{
+  "measured_score": 0.44348,
+  "source": "User confirmed using attached submission_optimal_step.csv",
+  "sha256": "6764740443ef82125db408cd27369e9983076555011b8fe1de4471700c178555",
+  "recorded_forecast": 0.4434319469119374,
+  "decision": "Preserve as scored best. This result does not justify another tiny same-direction submission."
+}

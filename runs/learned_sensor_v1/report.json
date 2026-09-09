@@ -1,0 +1,131 @@
+{
+  "results": [
+    {
+      "scenario": "panel",
+      "hidden": [
+        7
+      ],
+      "training_rows": 60000,
+      "calibration_rows": 10000,
+      "selected": "residual",
+      "calibration_weight": 0.6372023872919456,
+      "n": 6000,
+      "physics_rmse": 1.3500734402184995,
+      "learned_rmse": 1.3452436025292362,
+      "mse_gain": 0.013017943837576615,
+      "paired_se": 0.010294023174157967,
+      "direct": {
+        "n": 6000,
+        "physics_rmse": 1.3500734402184995,
+        "learned_rmse": 1.811786558487563,
+        "mse_gain": -1.4598722395327934,
+        "paired_se": 0.12294477469725296
+      },
+      "residual": {
+        "n": 6000,
+        "physics_rmse": 1.3500734402184995,
+        "learned_rmse": 1.346543739380838,
+        "mse_gain": 0.00951825191768493,
+        "paired_se": 0.016044049463215256
+      }
+    },
+    {
+      "scenario": "panel_sparse",
+      "hidden": [
+        7,
+        15,
+        2
+      ],
+      "training_rows": 60000,
+      "calibration_rows": 10000,
+      "selected": "residual",
+      "calibration_weight": 0.9986740746954592,
+      "n": 6000,
+      "physics_rmse": 3.1601085847541155,
+      "learned_rmse": 3.141155250626057,
+      "mse_gain": 0.11942995890101146,
+      "paired_se": 0.04492144783649763,
+      "direct": {
+        "n": 6000,
+        "physics_rmse": 3.1601085847541155,
+        "learned_rmse": 3.6817984010112768,
+        "mse_gain": -3.5693531982525353,
+        "paired_se": 0.25460606229192156
+      },
+      "residual": {
+        "n": 6000,
+        "physics_rmse": 3.1601085847541155,
+        "learned_rmse": 3.1411756587779127,
+        "mse_gain": 0.11930174813780439,
+        "paired_se": 0.04498018425675295
+      }
+    },
+    {
+      "scenario": "gross_sparse",
+      "hidden": [
+        14,
+        21
+      ],
+      "training_rows": 60000,
+      "calibration_rows": 10000,
+      "selected": "direct",
+      "calibration_weight": 0.07734029163333678,
+      "n": 6000,
+      "physics_rmse": 0.5936174557917706,
+      "learned_rmse": 0.5980242602088126,
+      "mse_gain": -0.005251331977602733,
+      "paired_se": 0.0040035664420461775,
+      "direct": {
+        "n": 6000,
+        "physics_rmse": 0.5936174557917706,
+        "learned_rmse": 0.7999671516159158,
+        "mse_gain": -0.2875657598437868,
+        "paired_se": 0.07340938855218505
+      },
+      "residual": {
+        "n": 6000,
+        "physics_rmse": 0.5936174557917706,
+        "learned_rmse": 0.6325141097468328,
+        "mse_gain": -0.04769241520813355,
+        "paired_se": 0.01870623723613795
+      }
+    },
+    {
+      "scenario": "wind_sparse",
+      "hidden": [
+        4,
+        13,
+        14,
+        18,
+        21
+      ],
+      "training_rows": 60000,
+      "calibration_rows": 10000,
+      "selected": "residual",
+      "calibration_weight": 1.0,
+      "n": 6000,
+      "physics_rmse": 4.610394110247409,
+      "learned_rmse": 4.342302933835867,
+      "mse_gain": 2.4001390826044107,
+      "paired_se": 0.21064126930312493,
+      "direct": {
+        "n": 6000,
+        "physics_rmse": 4.610394110247409,
+        "learned_rmse": 4.874049622293557,
+        "mse_gain": -2.500625868775978,
+        "paired_se": 0.3669621236326328
+      },
+      "residual": {
+        "n": 6000,
+        "physics_rmse": 4.610394110247409,
+        "learned_rmse": 4.342302933835867,
+        "mse_gain": 2.4001390826044107,
+        "paired_se": 0.21064126930312493
+      }
+    }
+  ],
+  "elapsed_seconds": 133.95514917373657,
+  "target_weights": "Untouched; no NDEM predictions fit or scored.",
+  "split": "Train rows fit/calibrate; previously unused test rows evaluated after selection.",
+  "limitation": "Observed-sensor holdouts do not measure naturally missing cells or hidden target accuracy."
+}

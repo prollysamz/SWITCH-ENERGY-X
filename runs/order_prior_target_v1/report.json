@@ -1,0 +1,47 @@
+{
+  "status": "Exact incumbent algebra with deterministic reconstruction branch updated; unscored",
+  "max_reproduction_error": 3.197442310920451e-14,
+  "unused_partition_max_reproduction_error": 3.197442310920451e-14,
+  "dynamic_names": [
+    "deterministic_frozen_prediction",
+    "solar",
+    "demand_storage_ratio",
+    "symmetric_heat",
+    "generation_temperature",
+    "panel_temperature",
+    "generation",
+    "demand",
+    "storage",
+    "generation_second_moment"
+  ],
+  "dynamic_coefficients": [
+    0.007830709270891275,
+    1.9375572663640008,
+    0.09417711434423687,
+    -0.0075928698914485325,
+    0.000552924416775515,
+    -0.004508095741805729,
+    0.5507572910787364,
+    -0.05679632909521431,
+    0.017344048575623924,
+    -0.005560005580307529
+  ],
+  "rms_change": 0.06530297948175992,
+  "max_change": 2.779162309541039,
+  "delta_quantiles": [
+    -2.779162309541039,
+    -0.7870648797094435,
+    -0.10315164416206196,
+    -1.171889050997876e-05,
+    0.09616192257513048,
+    0.6886151694328445,
+    1.9376460855109066
+  ],
+  "target_rmse_forecast": null,
+  "target_weights_retuned": false,
+  "limitations": [
+    "Legacy Monte Carlo predictions and learned correction remain fixed.",
+    "Laplace prior update approximates nonlinear posterior.",
+    "Sensor validation does not validate NDEM; public score is unknown."
+  ]
+}

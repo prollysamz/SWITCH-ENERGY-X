@@ -1,0 +1,179 @@
+{
+  "scope": "Code/data audit only; no NDEM labels or independent target validation",
+  "new_submission_generated": false,
+  "integrity": [
+    {
+      "file": "submission.csv",
+      "sha256_verified": true,
+      "schema_ids_finite": true
+    },
+    {
+      "file": "candidates/submission_combined.csv",
+      "sha256_verified": true,
+      "schema_ids_finite": true
+    },
+    {
+      "file": "candidates/submission_battery.csv",
+      "sha256_verified": true,
+      "schema_ids_finite": true
+    },
+    {
+      "file": "candidates/submission_tuned_heat.csv",
+      "sha256_verified": true,
+      "schema_ids_finite": true
+    },
+    {
+      "file": "candidates/submission_refined_plane.csv",
+      "sha256_verified": true,
+      "schema_ids_finite": true
+    }
+  ],
+  "global_tuning_capacity": {
+    "affine_rank_of_five_scored_predictions": 2,
+    "singular_values": [
+      1244.6450946066896,
+      608.8409691875944,
+      1.3445118387765303e-12,
+      1.581712673277351e-13,
+      1.1966869729985162e-29
+    ],
+    "direction_gram_condition_number": 3.9626435029339038,
+    "note": "Rank is final global weight capacity, not total adaptive selection complexity."
+  },
+  "baseline_rebuild_max_abs_difference": 1.0658141036401503e-14,
+  "best_rebuild_max_abs_difference": 3.552713678800501e-15,
+  "effective_effects": {
+    "battery_standardized_coefficient": 0.16975200396193468,
+    "heat_standardized_coefficient": 2.3586111978765887,
+    "coefficient_on_raw_negative_drawdown": 0.2931959238521285,
+    "coefficient_on_raw_negative_heat_hinge": 0.38114815442962263,
+    "note": "These are conditional algebraic coefficients after centering and removing generation correlation."
+  },
+  "largest_train_test_shifts": [
+    {
+      "feature": "feature_24",
+      "train_mean": 0.18278733674028258,
+      "test_mean": 1.3882033548625197,
+      "standardized_mean_shift": 1.0853457401200428,
+      "missingness_difference": -0.001432500000000031
+    },
+    {
+      "feature": "feature_08",
+      "train_mean": 0.5538185144952713,
+      "test_mean": 0.5337959013238177,
+      "standardized_mean_shift": -0.1152639070611735,
+      "missingness_difference": 0.00030000000000002247
+    },
+    {
+      "feature": "feature_19",
+      "train_mean": 0.3697762701549546,
+      "test_mean": 0.3542603832136005,
+      "standardized_mean_shift": -0.10542447198054046,
+      "missingness_difference": 0.00044250000000001233
+    },
+    {
+      "feature": "feature_11",
+      "train_mean": 0.9469673460332009,
+      "test_mean": 0.9463294374719311,
+      "standardized_mean_shift": -0.0695130832967334,
+      "missingness_difference": 0.004057500000000047
+    },
+    {
+      "feature": "feature_15",
+      "train_mean": 0.9351260898787955,
+      "test_mean": 0.9347481546276096,
+      "standardized_mean_shift": -0.00868373382800106,
+      "missingness_difference": 0.0007624999999999993
+    },
+    {
+      "feature": "feature_07",
+      "train_mean": 40.44745756674802,
+      "test_mean": 40.52824244345072,
+      "standardized_mean_shift": 0.007846001340960791,
+      "missingness_difference": -0.0004950000000000232
+    }
+  ],
+  "cache_has_row_ids": false,
+  "cached_physical_anomalies": {
+    "train": {
+      "soc_above_one": 123,
+      "demand_below_zero": 5,
+      "panel_temperature_below_minus40": 3,
+      "min_inferred_panel_temperature": -56.83452399960413,
+      "min_inferred_demand": -1.4691603822609591
+    },
+    "test": {
+      "soc_above_one": 23,
+      "demand_below_zero": 0,
+      "panel_temperature_below_minus40": 0,
+      "min_inferred_panel_temperature": -28.910375978565895,
+      "min_inferred_demand": 2.5777813800553632e-05
+    }
+  },
+  "fitted_vs_hardcoded_thermal_beta": {
+    "fitted": 0.0042054049571212575,
+    "hardcoded": 0.004213
+  },
+  "gaussian_heat_jensen_gap": {
+    "heat_units_mean": 0.010753246084057774,
+    "prediction_units_rms": 0.027681983987938953,
+    "prediction_units_max": 1.6786667210314279,
+    "note": "Magnitude of a potential approximation correction, not a predicted RMSE gain."
+  },
+  "direction_influence": {
+    "top_one_percent_share": 0.15236448453039933,
+    "max_to_mean": 99.69735154224867
+  },
+  "prediction_tails": {
+    "below_minus20": 1,
+    "above20": 51,
+    "min": -29.08228744503649,
+    "max": 21.701022777732348,
+    "negative_fraction": 0.17433
+  },
+  "new_panel_temperature_holdout": [
+    {
+      "hidden": [
+        7
+      ],
+      "n": 5000,
+      "rmse": 1.315997150807274,
+      "mae": 0.9355328970767738,
+      "bias": 0.010521852585718711,
+      "max_abs": 9.749209181684414
+    },
+    {
+      "hidden": [
+        7,
+        15
+      ],
+      "n": 5000,
+      "rmse": 2.7975390458192892,
+      "mae": 1.2421222741742004,
+      "bias": -0.032074477367867726,
+      "max_abs": 141.13019704505055
+    },
+    {
+      "hidden": [
+        7,
+        15,
+        2
+      ],
+      "n": 5000,
+      "rmse": 3.793088331154428,
+      "mae": 2.432220672075981,
+      "bias": -0.16627863586326316,
+      "max_abs": 141.13019704505055
+    }
+  ],
+  "forecast_vs_actual": [
+    {
+      "predicted": 1.0871456998767204,
+      "observed": 1.08381
+    },
+    {
+      "predicted": 0.8066991046293289,
+      "observed": 0.78886
+    }
+  ]
+}

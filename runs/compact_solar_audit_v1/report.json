@@ -1,0 +1,774 @@
+{
+  "status": "Diagnostic only; no submission generated.",
+  "models": [
+    {
+      "battery": "reciprocal",
+      "thermal": "warm_quadratic",
+      "coefficients": {
+        "wind": 0.5812565979380289,
+        "solar": 2.5426955615994826,
+        "battery_drawdown": -6.693598106806659e-10,
+        "quadratic_heat": -0.008158332446501729,
+        "generation_temperature": 0.0007293960045469504,
+        "linear_temperature": 0.012260439510707604
+      },
+      "retained_score_directions": 6,
+      "standardized_condition": 13.524643549230582,
+      "projection_rms": 0.014689321772110561,
+      "implied_residual_variance": 0.1505558130544006,
+      "maximum_fitting_score_discrepancy": 0.024013033950337936,
+      "rms_change_from_best": 0.38366285314147497,
+      "score_checks": [
+        {
+          "file": "submission.csv",
+          "reported": 2.53192,
+          "fitted": true,
+          "forecast": 2.5324871122168124
+        },
+        {
+          "file": "candidates/submission_combined.csv",
+          "reported": 1.83716,
+          "fitted": true,
+          "forecast": 1.821967128641415
+        },
+        {
+          "file": "candidates/submission_battery.csv",
+          "reported": 2.8156,
+          "fitted": true,
+          "forecast": 2.806145353790542
+        },
+        {
+          "file": "candidates/submission_tuned_heat.csv",
+          "reported": 1.08381,
+          "fitted": true,
+          "forecast": 1.059796966049662
+        },
+        {
+          "file": "candidates/submission_refined_plane.csv",
+          "reported": 0.78886,
+          "fitted": true,
+          "forecast": 0.7853960216459696
+        },
+        {
+          "file": "runs/reconstruction_v1/submission_reconstruction_repaired.csv",
+          "reported": 0.75,
+          "fitted": false,
+          "forecast": 0.7780197454188551
+        },
+        {
+          "file": "candidates/submission_thermal_tail.csv",
+          "reported": 0.84,
+          "fitted": false,
+          "forecast": 0.8286376700950283
+        },
+        {
+          "file": "candidates/submission_blend_v2.csv",
+          "reported": 0.71269,
+          "fitted": true,
+          "forecast": 0.7106721810763039
+        },
+        {
+          "file": "runs/interaction_v1/submission_generation_heat.csv",
+          "reported": 0.94148,
+          "fitted": true,
+          "forecast": 0.943967147867699
+        },
+        {
+          "file": "runs/thermal_reference_v1/submission_quadratic_heat25.csv",
+          "reported": 0.62717,
+          "fitted": true,
+          "forecast": 0.6418282100770126
+        },
+        {
+          "file": "runs/thermal_calibrated_v1/submission_thermal_calibrated.csv",
+          "reported": 0.60061,
+          "fitted": true,
+          "forecast": 0.6086630987484564
+        },
+        {
+          "file": "runs/observed_thermal_v1/submission_observed_temperature.csv",
+          "reported": 0.64514,
+          "fitted": false,
+          "forecast": 0.6551338470643819
+        },
+        {
+          "file": "runs/temperature_slope_v1/submission_temperature_slope.csv",
+          "reported": 0.84,
+          "fitted": false,
+          "forecast": 0.8252877736754621
+        },
+        {
+          "file": "runs/deterministic_v1/submission_deterministic.csv",
+          "reported": 0.60058,
+          "fitted": false,
+          "forecast": 0.607465641731156
+        },
+        {
+          "file": "runs/learned_energy_v1/submission_learned_energy.csv",
+          "reported": 0.60042,
+          "fitted": false,
+          "forecast": 0.608159824011005
+        },
+        {
+          "file": "runs/solar_contribution_v1/submission_solar_contribution.csv",
+          "reported": 0.53504,
+          "fitted": true,
+          "forecast": 0.5456674792720012
+        },
+        {
+          "file": "runs/direct_demand_v1/submission_direct_demand.csv",
+          "reported": 0.57,
+          "fitted": false,
+          "forecast": 0.5858919681628924
+        },
+        {
+          "file": "runs/storage_contribution_v1/submission_storage_contribution.csv",
+          "reported": 0.58,
+          "fitted": false,
+          "forecast": 0.592232621699938
+        }
+      ]
+    },
+    {
+      "battery": "reciprocal",
+      "thermal": "symmetric_quadratic",
+      "coefficients": {
+        "wind": 0.5809185887488464,
+        "solar": 2.5486227898186566,
+        "battery_drawdown": -1.8638079140083312e-10,
+        "quadratic_heat": -0.0080168020081013,
+        "generation_temperature": 0.0004927572877434161,
+        "linear_temperature": 0.007189505092255948
+      },
+      "retained_score_directions": 6,
+      "standardized_condition": 13.24403182736039,
+      "projection_rms": 0.01627576358536362,
+      "implied_residual_variance": 0.11923632334765827,
+      "maximum_fitting_score_discrepancy": 0.026137254129869447,
+      "rms_change_from_best": 0.42385618859178253,
+      "score_checks": [
+        {
+          "file": "submission.csv",
+          "reported": 2.53192,
+          "fitted": true,
+          "forecast": 2.5325620986759327
+        },
+        {
+          "file": "candidates/submission_combined.csv",
+          "reported": 1.83716,
+          "fitted": true,
+          "forecast": 1.8203188288110241
+        },
+        {
+          "file": "candidates/submission_battery.csv",
+          "reported": 2.8156,
+          "fitted": true,
+          "forecast": 2.804865688726462
+        },
+        {
+          "file": "candidates/submission_tuned_heat.csv",
+          "reported": 1.08381,
+          "fitted": true,
+          "forecast": 1.0576727458701305
+        },
+        {
+          "file": "candidates/submission_refined_plane.csv",
+          "reported": 0.78886,
+          "fitted": true,
+          "forecast": 0.7840130465379879
+        },
+        {
+          "file": "runs/reconstruction_v1/submission_reconstruction_repaired.csv",
+          "reported": 0.75,
+          "fitted": false,
+          "forecast": 0.7766520022375153
+        },
+        {
+          "file": "candidates/submission_thermal_tail.csv",
+          "reported": 0.84,
+          "fitted": false,
+          "forecast": 0.8298635103649628
+        },
+        {
+          "file": "candidates/submission_blend_v2.csv",
+          "reported": 0.71269,
+          "fitted": true,
+          "forecast": 0.7104049118989506
+        },
+        {
+          "file": "runs/interaction_v1/submission_generation_heat.csv",
+          "reported": 0.94148,
+          "fitted": true,
+          "forecast": 0.9442243642760657
+        },
+        {
+          "file": "runs/thermal_reference_v1/submission_quadratic_heat25.csv",
+          "reported": 0.62717,
+          "fitted": true,
+          "forecast": 0.6432120128667458
+        },
+        {
+          "file": "runs/thermal_calibrated_v1/submission_thermal_calibrated.csv",
+          "reported": 0.60061,
+          "fitted": true,
+          "forecast": 0.6095267592603192
+        },
+        {
+          "file": "runs/observed_thermal_v1/submission_observed_temperature.csv",
+          "reported": 0.64514,
+          "fitted": false,
+          "forecast": 0.6558715479418203
+        },
+        {
+          "file": "runs/temperature_slope_v1/submission_temperature_slope.csv",
+          "reported": 0.84,
+          "fitted": false,
+          "forecast": 0.8580254587467256
+        },
+        {
+          "file": "runs/deterministic_v1/submission_deterministic.csv",
+          "reported": 0.60058,
+          "fitted": false,
+          "forecast": 0.6083528001306953
+        },
+        {
+          "file": "runs/learned_energy_v1/submission_learned_energy.csv",
+          "reported": 0.60042,
+          "fitted": false,
+          "forecast": 0.6090583515834425
+        },
+        {
+          "file": "runs/solar_contribution_v1/submission_solar_contribution.csv",
+          "reported": 0.53504,
+          "fitted": true,
+          "forecast": 0.5467086902137269
+        },
+        {
+          "file": "runs/direct_demand_v1/submission_direct_demand.csv",
+          "reported": 0.57,
+          "fitted": false,
+          "forecast": 0.5869859634836462
+        },
+        {
+          "file": "runs/storage_contribution_v1/submission_storage_contribution.csv",
+          "reported": 0.58,
+          "fitted": false,
+          "forecast": 0.5931497139441622
+        }
+      ]
+    },
+    {
+      "battery": "unfilled_demand",
+      "thermal": "warm_quadratic",
+      "coefficients": {
+        "wind": 0.5812565979383907,
+        "solar": 2.5426955614790234,
+        "battery_drawdown": -3.2153320418236143e-09,
+        "quadratic_heat": -0.008158332446512848,
+        "generation_temperature": 0.0007293960045905855,
+        "linear_temperature": 0.012260439514015134
+      },
+      "retained_score_directions": 6,
+      "standardized_condition": 13.781385543471309,
+      "projection_rms": 0.014689321772003548,
+      "implied_residual_variance": 0.15055581306908142,
+      "maximum_fitting_score_discrepancy": 0.024013033950186502,
+      "rms_change_from_best": 0.38366285312226983,
+      "score_checks": [
+        {
+          "file": "submission.csv",
+          "reported": 2.53192,
+          "fitted": true,
+          "forecast": 2.532487112216803
+        },
+        {
+          "file": "candidates/submission_combined.csv",
+          "reported": 1.83716,
+          "fitted": true,
+          "forecast": 1.8219671286415284
+        },
+        {
+          "file": "candidates/submission_battery.csv",
+          "reported": 2.8156,
+          "fitted": true,
+          "forecast": 2.806145353790608
+        },
+        {
+          "file": "candidates/submission_tuned_heat.csv",
+          "reported": 1.08381,
+          "fitted": true,
+          "forecast": 1.0597969660498134
+        },
+        {
+          "file": "candidates/submission_refined_plane.csv",
+          "reported": 0.78886,
+          "fitted": true,
+          "forecast": 0.7853960216460729
+        },
+        {
+          "file": "runs/reconstruction_v1/submission_reconstruction_repaired.csv",
+          "reported": 0.75,
+          "fitted": false,
+          "forecast": 0.7780197454189136
+        },
+        {
+          "file": "candidates/submission_thermal_tail.csv",
+          "reported": 0.84,
+          "fitted": false,
+          "forecast": 0.8286376700950301
+        },
+        {
+          "file": "candidates/submission_blend_v2.csv",
+          "reported": 0.71269,
+          "fitted": true,
+          "forecast": 0.7106721810763369
+        },
+        {
+          "file": "runs/interaction_v1/submission_generation_heat.csv",
+          "reported": 0.94148,
+          "fitted": true,
+          "forecast": 0.9439671478676954
+        },
+        {
+          "file": "runs/thermal_reference_v1/submission_quadratic_heat25.csv",
+          "reported": 0.62717,
+          "fitted": true,
+          "forecast": 0.6418282100769342
+        },
+        {
+          "file": "runs/thermal_calibrated_v1/submission_thermal_calibrated.csv",
+          "reported": 0.60061,
+          "fitted": true,
+          "forecast": 0.6086630987484123
+        },
+        {
+          "file": "runs/observed_thermal_v1/submission_observed_temperature.csv",
+          "reported": 0.64514,
+          "fitted": false,
+          "forecast": 0.6551338470651341
+        },
+        {
+          "file": "runs/temperature_slope_v1/submission_temperature_slope.csv",
+          "reported": 0.84,
+          "fitted": false,
+          "forecast": 0.8252877736756243
+        },
+        {
+          "file": "runs/deterministic_v1/submission_deterministic.csv",
+          "reported": 0.60058,
+          "fitted": false,
+          "forecast": 0.6074656417311638
+        },
+        {
+          "file": "runs/learned_energy_v1/submission_learned_energy.csv",
+          "reported": 0.60042,
+          "fitted": false,
+          "forecast": 0.6081598240110422
+        },
+        {
+          "file": "runs/solar_contribution_v1/submission_solar_contribution.csv",
+          "reported": 0.53504,
+          "fitted": true,
+          "forecast": 0.5456674792719476
+        },
+        {
+          "file": "runs/direct_demand_v1/submission_direct_demand.csv",
+          "reported": 0.57,
+          "fitted": false,
+          "forecast": 0.5858919681462832
+        },
+        {
+          "file": "runs/storage_contribution_v1/submission_storage_contribution.csv",
+          "reported": 0.58,
+          "fitted": false,
+          "forecast": 0.5922326216482383
+        }
+      ]
+    },
+    {
+      "battery": "unfilled_demand",
+      "thermal": "symmetric_quadratic",
+      "coefficients": {
+        "wind": 0.5809185887496712,
+        "solar": 2.5486227897850893,
+        "battery_drawdown": -9.065881856263458e-10,
+        "quadratic_heat": -0.008016802008110167,
+        "generation_temperature": 0.0004927572877505447,
+        "linear_temperature": 0.007189505093390238
+      },
+      "retained_score_directions": 6,
+      "standardized_condition": 13.496893699464016,
+      "projection_rms": 0.01627576358559237,
+      "implied_residual_variance": 0.11923632335483675,
+      "maximum_fitting_score_discrepancy": 0.026137254130203624,
+      "rms_change_from_best": 0.42385618858344354,
+      "score_checks": [
+        {
+          "file": "submission.csv",
+          "reported": 2.53192,
+          "fitted": true,
+          "forecast": 2.5325620986759563
+        },
+        {
+          "file": "candidates/submission_combined.csv",
+          "reported": 1.83716,
+          "fitted": true,
+          "forecast": 1.820318828810758
+        },
+        {
+          "file": "candidates/submission_battery.csv",
+          "reported": 2.8156,
+          "fitted": true,
+          "forecast": 2.804865688726283
+        },
+        {
+          "file": "candidates/submission_tuned_heat.csv",
+          "reported": 1.08381,
+          "fitted": true,
+          "forecast": 1.0576727458697963
+        },
+        {
+          "file": "candidates/submission_refined_plane.csv",
+          "reported": 0.78886,
+          "fitted": true,
+          "forecast": 0.7840130465377462
+        },
+        {
+          "file": "runs/reconstruction_v1/submission_reconstruction_repaired.csv",
+          "reported": 0.75,
+          "fitted": false,
+          "forecast": 0.7766520022372555
+        },
+        {
+          "file": "candidates/submission_thermal_tail.csv",
+          "reported": 0.84,
+          "fitted": false,
+          "forecast": 0.8298635103651337
+        },
+        {
+          "file": "candidates/submission_blend_v2.csv",
+          "reported": 0.71269,
+          "fitted": true,
+          "forecast": 0.7104049118988667
+        },
+        {
+          "file": "runs/interaction_v1/submission_generation_heat.csv",
+          "reported": 0.94148,
+          "fitted": true,
+          "forecast": 0.9442243642760749
+        },
+        {
+          "file": "runs/thermal_reference_v1/submission_quadratic_heat25.csv",
+          "reported": 0.62717,
+          "fitted": true,
+          "forecast": 0.6432120128669108
+        },
+        {
+          "file": "runs/thermal_calibrated_v1/submission_thermal_calibrated.csv",
+          "reported": 0.60061,
+          "fitted": true,
+          "forecast": 0.6095267592604038
+        },
+        {
+          "file": "runs/observed_thermal_v1/submission_observed_temperature.csv",
+          "reported": 0.64514,
+          "fitted": false,
+          "forecast": 0.655871547942115
+        },
+        {
+          "file": "runs/temperature_slope_v1/submission_temperature_slope.csv",
+          "reported": 0.84,
+          "fitted": false,
+          "forecast": 0.8580254587470908
+        },
+        {
+          "file": "runs/deterministic_v1/submission_deterministic.csv",
+          "reported": 0.60058,
+          "fitted": false,
+          "forecast": 0.6083528001307879
+        },
+        {
+          "file": "runs/learned_energy_v1/submission_learned_energy.csv",
+          "reported": 0.60042,
+          "fitted": false,
+          "forecast": 0.6090583515835493
+        },
+        {
+          "file": "runs/solar_contribution_v1/submission_solar_contribution.csv",
+          "reported": 0.53504,
+          "fitted": true,
+          "forecast": 0.5467086902138256
+        },
+        {
+          "file": "runs/direct_demand_v1/submission_direct_demand.csv",
+          "reported": 0.57,
+          "fitted": false,
+          "forecast": 0.586985963479092
+        },
+        {
+          "file": "runs/storage_contribution_v1/submission_storage_contribution.csv",
+          "reported": 0.58,
+          "fitted": false,
+          "forecast": 0.5931497139297245
+        }
+      ]
+    },
+    {
+      "battery": "net_demand",
+      "thermal": "warm_quadratic",
+      "coefficients": {
+        "wind": 0.5812565979249492,
+        "solar": 2.542695561210539,
+        "battery_drawdown": -1.8828492867229283e-09,
+        "quadratic_heat": -0.008158332446407592,
+        "generation_temperature": 0.0007293960046981021,
+        "linear_temperature": 0.012260439517170657
+      },
+      "retained_score_directions": 6,
+      "standardized_condition": 14.43085644516037,
+      "projection_rms": 0.014689321766611382,
+      "implied_residual_variance": 0.15055581301123414,
+      "maximum_fitting_score_discrepancy": 0.024013033942864803,
+      "rms_change_from_best": 0.38366285319312277,
+      "score_checks": [
+        {
+          "file": "submission.csv",
+          "reported": 2.53192,
+          "fitted": true,
+          "forecast": 2.5324871122164145
+        },
+        {
+          "file": "candidates/submission_combined.csv",
+          "reported": 1.83716,
+          "fitted": true,
+          "forecast": 1.821967128646863
+        },
+        {
+          "file": "candidates/submission_battery.csv",
+          "reported": 2.8156,
+          "fitted": true,
+          "forecast": 2.80614535379463
+        },
+        {
+          "file": "candidates/submission_tuned_heat.csv",
+          "reported": 1.08381,
+          "fitted": true,
+          "forecast": 1.0597969660571351
+        },
+        {
+          "file": "candidates/submission_refined_plane.csv",
+          "reported": 0.78886,
+          "fitted": true,
+          "forecast": 0.7853960216510764
+        },
+        {
+          "file": "runs/reconstruction_v1/submission_reconstruction_repaired.csv",
+          "reported": 0.75,
+          "fitted": false,
+          "forecast": 0.7780197454240483
+        },
+        {
+          "file": "candidates/submission_thermal_tail.csv",
+          "reported": 0.84,
+          "fitted": false,
+          "forecast": 0.8286376700910857
+        },
+        {
+          "file": "candidates/submission_blend_v2.csv",
+          "reported": 0.71269,
+          "fitted": true,
+          "forecast": 0.7106721810777218
+        },
+        {
+          "file": "runs/interaction_v1/submission_generation_heat.csv",
+          "reported": 0.94148,
+          "fitted": true,
+          "forecast": 0.9439671478671247
+        },
+        {
+          "file": "runs/thermal_reference_v1/submission_quadratic_heat25.csv",
+          "reported": 0.62717,
+          "fitted": true,
+          "forecast": 0.6418282100724064
+        },
+        {
+          "file": "runs/thermal_calibrated_v1/submission_thermal_calibrated.csv",
+          "reported": 0.60061,
+          "fitted": true,
+          "forecast": 0.6086630987457745
+        },
+        {
+          "file": "runs/observed_thermal_v1/submission_observed_temperature.csv",
+          "reported": 0.64514,
+          "fitted": false,
+          "forecast": 0.6551338470631834
+        },
+        {
+          "file": "runs/temperature_slope_v1/submission_temperature_slope.csv",
+          "reported": 0.84,
+          "fitted": false,
+          "forecast": 0.8252877736685861
+        },
+        {
+          "file": "runs/deterministic_v1/submission_deterministic.csv",
+          "reported": 0.60058,
+          "fitted": false,
+          "forecast": 0.6074656417285518
+        },
+        {
+          "file": "runs/learned_energy_v1/submission_learned_energy.csv",
+          "reported": 0.60042,
+          "fitted": false,
+          "forecast": 0.6081598240083714
+        },
+        {
+          "file": "runs/solar_contribution_v1/submission_solar_contribution.csv",
+          "reported": 0.53504,
+          "fitted": true,
+          "forecast": 0.545667479268761
+        },
+        {
+          "file": "runs/direct_demand_v1/submission_direct_demand.csv",
+          "reported": 0.57,
+          "fitted": false,
+          "forecast": 0.5858919681237246
+        },
+        {
+          "file": "runs/storage_contribution_v1/submission_storage_contribution.csv",
+          "reported": 0.58,
+          "fitted": false,
+          "forecast": 0.5922326216411962
+        }
+      ]
+    },
+    {
+      "battery": "net_demand",
+      "thermal": "symmetric_quadratic",
+      "coefficients": {
+        "wind": 0.5809185887473809,
+        "solar": 2.5486227897072444,
+        "battery_drawdown": -5.454540111077541e-10,
+        "quadratic_heat": -0.00801680200809322,
+        "generation_temperature": 0.0004927572877715964,
+        "linear_temperature": 0.0071895050948037505
+      },
+      "retained_score_directions": 6,
+      "standardized_condition": 14.13897943780923,
+      "projection_rms": 0.016275763584592637,
+      "implied_residual_variance": 0.11923632334423004,
+      "maximum_fitting_score_discrepancy": 0.026137254128835608,
+      "rms_change_from_best": 0.4238561885952112,
+      "score_checks": [
+        {
+          "file": "submission.csv",
+          "reported": 2.53192,
+          "fitted": true,
+          "forecast": 2.5325620986758817
+        },
+        {
+          "file": "candidates/submission_combined.csv",
+          "reported": 1.83716,
+          "fitted": true,
+          "forecast": 1.8203188288117713
+        },
+        {
+          "file": "candidates/submission_battery.csv",
+          "reported": 2.8156,
+          "fitted": true,
+          "forecast": 2.8048656887270496
+        },
+        {
+          "file": "candidates/submission_tuned_heat.csv",
+          "reported": 1.08381,
+          "fitted": true,
+          "forecast": 1.0576727458711643
+        },
+        {
+          "file": "candidates/submission_refined_plane.csv",
+          "reported": 0.78886,
+          "fitted": true,
+          "forecast": 0.784013046538683
+        },
+        {
+          "file": "runs/reconstruction_v1/submission_reconstruction_repaired.csv",
+          "reported": 0.75,
+          "fitted": false,
+          "forecast": 0.7766520022382177
+        },
+        {
+          "file": "candidates/submission_thermal_tail.csv",
+          "reported": 0.84,
+          "fitted": false,
+          "forecast": 0.8298635103643988
+        },
+        {
+          "file": "candidates/submission_blend_v2.csv",
+          "reported": 0.71269,
+          "fitted": true,
+          "forecast": 0.7104049118991331
+        },
+        {
+          "file": "runs/interaction_v1/submission_generation_heat.csv",
+          "reported": 0.94148,
+          "fitted": true,
+          "forecast": 0.9442243642759686
+        },
+        {
+          "file": "runs/thermal_reference_v1/submission_quadratic_heat25.csv",
+          "reported": 0.62717,
+          "fitted": true,
+          "forecast": 0.6432120128660869
+        },
+        {
+          "file": "runs/thermal_calibrated_v1/submission_thermal_calibrated.csv",
+          "reported": 0.60061,
+          "fitted": true,
+          "forecast": 0.6095267592599274
+        },
+        {
+          "file": "runs/observed_thermal_v1/submission_observed_temperature.csv",
+          "reported": 0.64514,
+          "fitted": false,
+          "forecast": 0.6558715479418213
+        },
+        {
+          "file": "runs/temperature_slope_v1/submission_temperature_slope.csv",
+          "reported": 0.84,
+          "fitted": false,
+          "forecast": 0.8580254587457675
+        },
+        {
+          "file": "runs/deterministic_v1/submission_deterministic.csv",
+          "reported": 0.60058,
+          "fitted": false,
+          "forecast": 0.6083528001303145
+        },
+        {
+          "file": "runs/learned_energy_v1/submission_learned_energy.csv",
+          "reported": 0.60042,
+          "fitted": false,
+          "forecast": 0.6090583515830728
+        },
+        {
+          "file": "runs/solar_contribution_v1/submission_solar_contribution.csv",
+          "reported": 0.53504,
+          "fitted": true,
+          "forecast": 0.5467086902132524
+        },
+        {
+          "file": "runs/direct_demand_v1/submission_direct_demand.csv",
+          "reported": 0.57,
+          "fitted": false,
+          "forecast": 0.5869859634727698
+        },
+        {
+          "file": "runs/storage_contribution_v1/submission_storage_contribution.csv",
+          "reported": 0.58,
+          "fitted": false,
+          "forecast": 0.5931497139276404
+        }
+      ]
+    }
+  ],
+  "limitation": "Full-test moments approximate the unknown public split; mean 3.9 and compact functional forms are assumptions. Excluded scores are not independent validation after repeated adaptive experiments."
+}

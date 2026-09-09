@@ -1,0 +1,185 @@
+{
+  "purpose": "each file adds ONE new independent direction; score then re-solve the blend in closed form",
+  "built_on": "runs/reconstruction_v1/submission_reconstruction_repaired.csv (scored 0.75)",
+  "formula": "repaired + 2.0 * standardized_residual_of_term_off_scored_span",
+  "candidates": {
+    "hinge30": {
+      "file": "candidates/thermal/probe_hinge30.csv",
+      "residual_sd": 3.230973742048328,
+      "mean": 3.8659118648802493,
+      "sd": 5.118896432621909,
+      "min": -6.144462576864088,
+      "max": 24.15475318202386,
+      "negative_fraction": 0.2773,
+      "sha256": "4d21f0cfaaabcaa60fa710f4c921dd5fe76ad34da039903bc14bf17a78abd976"
+    },
+    "hinge35": {
+      "file": "candidates/thermal/probe_hinge35.csv",
+      "residual_sd": 1.7719825988822044,
+      "corr_with_hinge40_direction": 0.033534139543993084,
+      "mean": 3.865911864880245,
+      "sd": 5.118896432621895,
+      "min": -5.330368508109074,
+      "max": 24.173230562719297,
+      "negative_fraction": 0.3062,
+      "sha256": "7214e948518c76d0d67b66fb400c2b82f3fe52bd6e18479d028222ce735ab9ce"
+    },
+    "hinge45": {
+      "file": "candidates/thermal/probe_hinge45.csv",
+      "residual_sd": 1.2695267361549194,
+      "corr_with_hinge40_direction": 0.03514498386883937,
+      "mean": 3.865911864880243,
+      "sd": 5.118896432621913,
+      "min": -22.07468066187994,
+      "max": 20.794704945723286,
+      "negative_fraction": 0.13233,
+      "sha256": "5d955ea1faf96ed810f568291b864eef3a6f6bbf5ee4e4b479ea847ab5b91cbd"
+    },
+    "hinge50": {
+      "file": "candidates/thermal/probe_hinge50.csv",
+      "residual_sd": 1.548657141053342,
+      "corr_with_hinge40_direction": 0.016652669389156535,
+      "mean": 3.865911864880253,
+      "sd": 5.118896432621927,
+      "min": -27.51051140439807,
+      "max": 20.927431150651937,
+      "negative_fraction": 0.10656,
+      "sha256": "aa465a4e1fc90d9c78bf56bef5e55bda1a14c79d7090b3798d581b200af21ed6"
+    },
+    "hinge55": {
+      "file": "candidates/thermal/probe_hinge55.csv",
+      "residual_sd": 1.1809857927804177,
+      "corr_with_hinge40_direction": 0.009832214761588852,
+      "mean": 3.865911864880257,
+      "sd": 5.118896432621932,
+      "min": -36.92420412796825,
+      "max": 21.08503227648501,
+      "negative_fraction": 0.06904,
+      "sha256": "675b955157c6c6bbd414f421464e5394f059dc06ee9f5b262bebfd06ea4fa977"
+    },
+    "hinge60": {
+      "file": "candidates/thermal/probe_hinge60.csv",
+      "residual_sd": 0.6402390986541199,
+      "corr_with_hinge40_direction": 0.00565400889373756,
+      "mean": 3.8659118648802586,
+      "sd": 5.118896432621936,
+      "min": -54.89315537741517,
+      "max": 21.268318876835217,
+      "negative_fraction": 0.10638,
+      "sha256": "90c1c05d33c92441b34655299918310ee4125a1a1e094169687753b77b7feb64"
+    },
+    "linear": {
+      "file": "candidates/thermal/probe_linear.csv",
+      "residual_sd": 4.75455282497245,
+      "corr_with_hinge40_direction": 0.011753975085292896,
+      "mean": 3.8659118648802577,
+      "sd": 5.118896432621914,
+      "min": -6.948832404730729,
+      "max": 32.69494770041156,
+      "negative_fraction": 0.24254,
+      "sha256": "1fb5bed03bf5031d0e0250f583412d5007a8c62987f89afdfdb2c1c5c6f12f63"
+    },
+    "quad": {
+      "file": "candidates/thermal/probe_quad.csv",
+      "residual_sd": 0.6187201909942948,
+      "corr_with_hinge40_direction": 0.04747077123534538,
+      "mean": 3.8659118648802386,
+      "sd": 5.118896432621885,
+      "min": -26.802096131076212,
+      "max": 25.483146118417945,
+      "negative_fraction": 0.18056,
+      "sha256": "b226cddd11f1fc3f6e36c8bd0214f8bf41c567bb53142097b523a09b2e7fcf5f"
+    },
+    "hinge40sq": {
+      "file": "candidates/thermal/probe_hinge40sq.csv",
+      "residual_sd": 0.4406719740524527,
+      "corr_with_hinge40_direction": 0.026084833871329517,
+      "mean": 3.865911864880248,
+      "sd": 5.118896432621916,
+      "min": -41.10914692569444,
+      "max": 20.88826358046247,
+      "negative_fraction": 0.10165,
+      "sha256": "ddb607346a6b4c853e94270b1a81a2e78ccf7246c93c86f6d9c2981754db55fe"
+    },
+    "linear_temp": {
+      "file": "candidates/thermal/probe_linear_temp.csv",
+      "residual_sd": 4.75455282497245,
+      "mean": 3.8659118648802577,
+      "sd": 5.118896432621914,
+      "min": -6.948832404730729,
+      "max": 32.69494770041156,
+      "negative_fraction": 0.24254,
+      "sha256": "1fb5bed03bf5031d0e0250f583412d5007a8c62987f89afdfdb2c1c5c6f12f63"
+    },
+    "gen_x_demand": {
+      "file": "candidates/thermal/probe_gen_x_demand.csv",
+      "residual_sd": 0.9347797820938498,
+      "mean": 3.8659118648802386,
+      "sd": 5.118896432621917,
+      "min": -9.669766749661592,
+      "max": 46.53731103283995,
+      "negative_fraction": 0.1716,
+      "sha256": "94b2aa0a2216569f3d2f08cde4b83100195a6aab2b888241d0bc095c798cd831"
+    },
+    "gen_x_soc": {
+      "file": "candidates/thermal/probe_gen_x_soc.csv",
+      "residual_sd": 0.8872024423185763,
+      "mean": 3.8659118648802453,
+      "sd": 5.1188964326219235,
+      "min": -11.585693770989513,
+      "max": 38.56124151860035,
+      "negative_fraction": 0.17898,
+      "sha256": "339930db47fdf2a7ef8a252cd80f96f8d76acf8b869f57f119ce69b57214349f"
+    },
+    "gen_x_temp": {
+      "file": "candidates/thermal/probe_gen_x_temp.csv",
+      "residual_sd": 0.5398735744411852,
+      "mean": 3.865911864880251,
+      "sd": 5.118896432621928,
+      "min": -13.822275647831493,
+      "max": 48.57942862122687,
+      "negative_fraction": 0.15248,
+      "sha256": "421268802c0a22f954bc0d653442d67539cd544f6d21585ddee4f8e1c560636a"
+    },
+    "gen_x_hinge40": {
+      "file": "candidates/thermal/probe_gen_x_hinge40.csv",
+      "residual_sd": 0.25019918545189646,
+      "mean": 3.865911864880254,
+      "sd": 5.118896432621931,
+      "min": -28.36898545256694,
+      "max": 26.747057116020805,
+      "negative_fraction": 0.14054,
+      "sha256": "b9bb4a3d28311a217beaa901aad7a8b283502f67bb52790a22d07df3199db3cb"
+    },
+    "cap18": {
+      "file": "candidates/thermal/probe_cap18.csv",
+      "residual_sd": 0.2327132346442708,
+      "mean": 3.8659118648802595,
+      "sd": 5.118896432621938,
+      "min": -26.802039506799144,
+      "max": 20.292026583299837,
+      "negative_fraction": 0.19224,
+      "sha256": "9a1515a7322d08e5a6139efff8ae2b64de80bb55feb8516afb9f16c9039fd6e8"
+    },
+    "demand_over_soc": {
+      "file": "candidates/thermal/probe_demand_over_soc.csv",
+      "residual_sd": 0.19023617491210856,
+      "mean": 3.8659118648802444,
+      "sd": 5.118896432621878,
+      "min": -105.21295838527685,
+      "max": 22.860185379217697,
+      "negative_fraction": 0.17575,
+      "sha256": "5f9cf23e1bc9e50cbc0fbb42ed29dec3128fb26f848e4ee14f20909c15b7baab"
+    },
+    "gen_x_hinge50": {
+      "file": "candidates/thermal/probe_gen_x_hinge50.csv",
+      "residual_sd": 0.10679751254474264,
+      "mean": 3.865911864880256,
+      "sd": 5.118896432621932,
+      "min": -59.281769616174714,
+      "max": 23.592613249715104,
+      "negative_fraction": 0.13546,
+      "sha256": "fba4f6c19c23ecb119ddedc0d01c3c03cdd2c25e028082df8222bfa8d3c73295"
+    }
+  }
+}

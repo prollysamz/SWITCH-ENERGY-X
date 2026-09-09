@@ -1,0 +1,80 @@
+{
+  "status": "UNSCORED new model effect; no target RMSE forecast",
+  "incumbent_file": "candidates/submission_best_0p71269.csv",
+  "incumbent_rmse": 0.71269,
+  "incumbent_sha256": "48c8d6801f7290839877dcaedcb559c0d65499d941e1aa86c7f80c619ddeae8f",
+  "hypothesis": "Additional thermal loss depends on generation as well as temperature",
+  "raw_effect": "-E[gross_generation * (panel_temperature - 25)]",
+  "formula": "incumbent + 0.5 * standardized residual effect",
+  "effect_sd": 0.5,
+  "projection": {
+    "mean": -72.56105959763643,
+    "residual_sd": 67.29235240062638,
+    "existing_prediction_rank": 5,
+    "singular_values": [
+      3956.8168346574594,
+      878.9647993053937,
+      551.8296068524637,
+      198.83299461614953,
+      30.599544539554813,
+      1.609843335701727e-11,
+      6.228473625401879e-13,
+      2.5797005169128445e-13
+    ]
+  },
+  "max_covariance_with_existing_predictions": 1.5995738067431374e-14,
+  "sources": [
+    {
+      "file": "submission.csv",
+      "sha256": "3f2c372bf15f93b70bbf711bc2a5036785cb495746d065f3d73b42ee6b51f104"
+    },
+    {
+      "file": "candidates/submission_combined.csv",
+      "sha256": "e6e9f2f1b6e20115c18a1e41ed834c6c05cc04d573b50726b614000bedb713f6"
+    },
+    {
+      "file": "candidates/submission_battery.csv",
+      "sha256": "775f80e83dd33b2afe1e356f6bd0eabd2ec25ba4b9f7f31b56a802efd8d1bb7a"
+    },
+    {
+      "file": "candidates/submission_tuned_heat.csv",
+      "sha256": "849c866d999eab48bfcbc77a38157ba62e7db327c1f2787a38279465f91093f4"
+    },
+    {
+      "file": "candidates/submission_refined_plane.csv",
+      "sha256": "9e99dda7caccc2d384cca69bb5cdd1b20bb95116193d7e4a5a47234b49fb3486"
+    },
+    {
+      "file": "runs/reconstruction_v1/submission_reconstruction_repaired.csv",
+      "sha256": "808d02e1c832e62aaad51645145f1755a581ccb910839cf5c5f7f6ab7710cb4d"
+    },
+    {
+      "file": "candidates/submission_thermal_tail.csv",
+      "sha256": "30d528b093ffaadf75977a02f3a85f277ee3725091736e6041c4c12f700840ed"
+    },
+    {
+      "file": "candidates/submission_blend_v2.csv",
+      "sha256": "48c8d6801f7290839877dcaedcb559c0d65499d941e1aa86c7f80c619ddeae8f"
+    }
+  ],
+  "score_values_used_for_new_coefficient": false,
+  "reconstruction": {
+    "model": "reconstruction_repair.py",
+    "seed": 2024,
+    "draws": 40,
+    "joint_not_product_of_means": true
+  },
+  "component_cache_sha256": "256fa6fea6e33a241505d2d63de50d7d609f8f90cfe453e8e439f190e180413f",
+  "candidate": "runs\\interaction_v1\\submission_generation_heat.csv",
+  "sha256": "788d1a0f6e6ef297f001051bfdad595774d48ee99405f61de57809dc50a957d7",
+  "prediction_mean": 3.8829373100540012,
+  "prediction_sd": 4.701613973870254,
+  "prediction_min": -13.992845292931657,
+  "prediction_max": 27.015121508079005,
+  "rms_change": 0.5,
+  "limitations": [
+    "Sign and strength of the extra thermal interaction are not identified without a score.",
+    "Projection uses unlabeled full-test moments; public moments can differ.",
+    "The candidate may score worse; keep the incumbent until measured."
+  ]
+}

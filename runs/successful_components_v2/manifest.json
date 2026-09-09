@@ -1,0 +1,21 @@
+{
+  "status": "Candidate continuation of the measured successful-components direction.",
+  "candidate": "runs/successful_components_v2/submission_successful_components_v2.csv",
+  "sha256": "c5a011c5202c909c4841cfacf67ebf1434329a1994c41ee012791af47176b24c",
+  "incumbent_file": "candidates/submission_best_0p46182.csv",
+  "incumbent_sha256": "1ffab46ba23c04ac466ba72126fb1f78f8a46626a11a6c405ccb608671bd816d",
+  "incumbent_rmse": 0.46182,
+  "source_direction_file": "runs/successful_components_v1/submission_successful_components.csv",
+  "source_direction_sha256": "e481dc4df6d7f636f9039dab625f2c38cbe0748d1b58147d396f0d306f67f34b",
+  "source_direction_rmse": 0.45095,
+  "direction_weight": 1.15,
+  "direction_rms": 0.08493641998903272,
+  "max_absolute_change": 0.9145477122082262,
+  "n_rows": 100000,
+  "allow_score_calibration": false,
+  "limitations": [
+    "The continuation uses the corrected public endpoint pair and full-test moments.",
+    "The public subset is structured and private performance is unverified.",
+    "This candidate is a measured-direction extension, not an independent target model."
+  ]
+}

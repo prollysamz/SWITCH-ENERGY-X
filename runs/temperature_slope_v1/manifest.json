@@ -1,0 +1,86 @@
+{
+  "status": "UNSCORED temperature-slope hypothesis",
+  "candidate": "runs/temperature_slope_v1/submission_temperature_slope.csv",
+  "sha256": "20e74f046731154b089471c60fd3fd1a263b5dccaa369998d5419476f4ca698b",
+  "incumbent_file": "candidates/submission_best_0p60061.csv",
+  "incumbent_rmse": 0.60061,
+  "incumbent_sha256": "79347b19112365760de56159341c3a2f92c17e4551d2af02c9afbe814bff6e9b",
+  "sources": [
+    {
+      "file": "submission.csv",
+      "sha256": "3f2c372bf15f93b70bbf711bc2a5036785cb495746d065f3d73b42ee6b51f104"
+    },
+    {
+      "file": "candidates/submission_combined.csv",
+      "sha256": "e6e9f2f1b6e20115c18a1e41ed834c6c05cc04d573b50726b614000bedb713f6"
+    },
+    {
+      "file": "candidates/submission_battery.csv",
+      "sha256": "775f80e83dd33b2afe1e356f6bd0eabd2ec25ba4b9f7f31b56a802efd8d1bb7a"
+    },
+    {
+      "file": "candidates/submission_tuned_heat.csv",
+      "sha256": "849c866d999eab48bfcbc77a38157ba62e7db327c1f2787a38279465f91093f4"
+    },
+    {
+      "file": "candidates/submission_refined_plane.csv",
+      "sha256": "9e99dda7caccc2d384cca69bb5cdd1b20bb95116193d7e4a5a47234b49fb3486"
+    },
+    {
+      "file": "runs/reconstruction_v1/submission_reconstruction_repaired.csv",
+      "sha256": "808d02e1c832e62aaad51645145f1755a581ccb910839cf5c5f7f6ab7710cb4d"
+    },
+    {
+      "file": "candidates/submission_thermal_tail.csv",
+      "sha256": "30d528b093ffaadf75977a02f3a85f277ee3725091736e6041c4c12f700840ed"
+    },
+    {
+      "file": "candidates/submission_blend_v2.csv",
+      "sha256": "48c8d6801f7290839877dcaedcb559c0d65499d941e1aa86c7f80c619ddeae8f"
+    },
+    {
+      "file": "runs/interaction_v1/submission_generation_heat.csv",
+      "sha256": "788d1a0f6e6ef297f001051bfdad595774d48ee99405f61de57809dc50a957d7"
+    },
+    {
+      "file": "runs/thermal_reference_v1/submission_quadratic_heat25.csv",
+      "sha256": "0adf20eaafc10df97cead7e7beb45e2f1fe10625a1d3dc7d4b6035fb500ff018"
+    },
+    {
+      "file": "runs/thermal_calibrated_v1/submission_thermal_calibrated.csv",
+      "sha256": "79347b19112365760de56159341c3a2f92c17e4551d2af02c9afbe814bff6e9b"
+    },
+    {
+      "file": "runs/observed_thermal_v1/submission_observed_temperature.csv",
+      "sha256": "58e2ee81d6bc1aa859a6ecb3f875827691d2005ffd3209f941bf858d694fd893"
+    }
+  ],
+  "hypothesis": "An independent linear temperature term corrects the reference and cold-side behavior of the thermal curve.",
+  "raw_effect": "-E[panel_temperature]",
+  "effect_sd": 0.5,
+  "projection": {
+    "mean": -40.983078062918544,
+    "residual_sd": 1.8684004891533053,
+    "existing_prediction_rank": 8,
+    "singular_values": [
+      4927.046976454774,
+      951.8107804579381,
+      559.1998324805821,
+      216.59169516748327,
+      198.49372344424407,
+      132.36038975836047,
+      65.89638364842102,
+      30.66996365233533,
+      1.614106517099914e-11,
+      6.41532569831865e-13,
+      3.4915563992636247e-13,
+      2.5562499847707864e-13
+    ]
+  },
+  "rms_change": 0.49999999999999994,
+  "max_abs_change": 6.197473726338675,
+  "limitations": [
+    "Sign and strength require score feedback.",
+    "Full-test projection moments approximate public moments."
+  ]
+}

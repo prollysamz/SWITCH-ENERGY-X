@@ -1,0 +1,64 @@
+{
+  "confirmation": [
+    {
+      "scenario": "storage",
+      "n": 2000,
+      "baseline_rmse": 0.08517596052089563,
+      "candidate_rmse": 0.06488646287370317,
+      "mse_gain": 0.0030446911863967075,
+      "paired_se": 0.0002951173124456616
+    },
+    {
+      "scenario": "storage_sparse",
+      "n": 2000,
+      "baseline_rmse": 0.17702330272593764,
+      "candidate_rmse": 0.11945083231282468,
+      "mse_gain": 0.017068748367772398,
+      "paired_se": 0.0007143696369173975
+    },
+    {
+      "scenario": "demand",
+      "n": 2000,
+      "baseline_rmse": 0.06235441444496639,
+      "candidate_rmse": 0.052496085556601506,
+      "mse_gain": 0.001132234002008608,
+      "paired_se": 0.00013396147705273115
+    },
+    {
+      "scenario": "demand_sparse",
+      "n": 2000,
+      "baseline_rmse": 0.12057788043583582,
+      "candidate_rmse": 0.08582140623849409,
+      "mse_gain": 0.007173711481646086,
+      "paired_se": 0.00033827975823644973
+    }
+  ],
+  "diagnostic": {
+    "latent_rms_changes": {
+      "G": 1.7388048889947385,
+      "T": 0.20807976611644327,
+      "H": 0.13373976206257196,
+      "V": 0.007673175909490716,
+      "P": 0.23155185681097532,
+      "C": 0.0022719954231378765,
+      "S": 0.02634477982871099,
+      "D": 0.017478330083380907
+    },
+    "old_formula_linearized_prediction_rms_change": 0.06416603712058283,
+    "old_formula_linearized_prediction_change_quantiles": [
+      -2.7212750308739464,
+      -0.11800260824741632,
+      -0.00026237797765262357,
+      0.11272496922311791,
+      2.112562878676111
+    ],
+    "old_formula_mean_conditional_variance_before": 0.06251494087361166,
+    "old_formula_mean_conditional_variance_after": 0.059133210212512714,
+    "limitation": "Gradient belongs to the older 0.60058 formula. This is a sensitivity diagnostic, not a forecast for 0.44348."
+  },
+  "parameters_locked_to": "runs/order_prior_audit_v1/report.json",
+  "all_confirmation_rows_excluded_from_prior_fit": true,
+  "confirmation_rows_disjoint_from_first_sensor_audit": true,
+  "target_scores_used": false,
+  "target_rmse_forecast": null
+}

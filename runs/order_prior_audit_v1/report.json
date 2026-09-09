@@ -1,0 +1,118 @@
+{
+  "status": "Independent row-order prior sensor audit; no target validation",
+  "prior_choices": [
+    {
+      "name": "storage",
+      "width": 4001,
+      "calibration_options": [
+        [
+          0.014608161224505539,
+          251
+        ],
+        [
+          0.014546976424296814,
+          1001
+        ],
+        [
+          0.014533214553496482,
+          4001
+        ],
+        [
+          0.014650020043638964,
+          16001
+        ]
+      ],
+      "residual_sd": 0.12055378282532855,
+      "heldout_prior_comparison": {
+        "n": 7518,
+        "baseline_rmse": 0.17379552728623524,
+        "candidate_rmse": 0.11899981520149341,
+        "mse_gain": 0.016043929286710956,
+        "paired_se": 0.00036327739505779503
+      }
+    },
+    {
+      "name": "demand_residual",
+      "width": 4001,
+      "calibration_options": [
+        [
+          0.007233504251725917,
+          251
+        ],
+        [
+          0.007183615500279487,
+          1001
+        ],
+        [
+          0.007180332253565012,
+          4001
+        ],
+        [
+          0.007471621480021418,
+          16001
+        ]
+      ],
+      "residual_sd": 0.084736841182363,
+      "heldout_prior_comparison": {
+        "n": 5648,
+        "baseline_rmse": 0.12020465075902638,
+        "candidate_rmse": 0.08479508542425798,
+        "mse_gain": 0.007258951551992293,
+        "paired_se": 0.0002014185544035905
+      }
+    }
+  ],
+  "results": [
+    {
+      "scenario": "storage",
+      "hidden": [
+        8
+      ],
+      "n": 4000,
+      "baseline_rmse": 0.08437143746150241,
+      "candidate_rmse": 0.06536950871718718,
+      "mse_gain": 0.0028453667893938027,
+      "paired_se": 0.00021078469190647297
+    },
+    {
+      "scenario": "storage_sparse",
+      "hidden": [
+        8,
+        11,
+        19
+      ],
+      "n": 4000,
+      "baseline_rmse": 0.17329664776503356,
+      "candidate_rmse": 0.11893253802484985,
+      "mse_gain": 0.015886779525565754,
+      "paired_se": 0.0004984116544406964
+    },
+    {
+      "scenario": "demand",
+      "hidden": [
+        9
+      ],
+      "n": 4000,
+      "baseline_rmse": 0.06414620023873678,
+      "candidate_rmse": 0.05345036364176436,
+      "mse_gain": 0.0012577936316312695,
+      "paired_se": 9.96000793320716e-05
+    },
+    {
+      "scenario": "demand_sparse",
+      "hidden": [
+        9,
+        19,
+        21
+      ],
+      "n": 4000,
+      "baseline_rmse": 0.12111906573532678,
+      "candidate_rmse": 0.08553554544857195,
+      "mse_gain": 0.007353498549413693,
+      "paired_se": 0.00024277032860449126
+    }
+  ],
+  "limitation": "Laplace prior replacement approximates a nonlinear posterior. Sensor gains do not establish NDEM gains.",
+  "all_audit_rows_excluded_from_prior_estimation": true,
+  "target_scores_used": false
+}

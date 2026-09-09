@@ -1,0 +1,47 @@
+{
+  "status": "UNSCORED calibrated temperature model",
+  "candidate": "runs/thermal_calibrated_v1/submission_thermal_calibrated.csv",
+  "sha256": "79347b19112365760de56159341c3a2f92c17e4551d2af02c9afbe814bff6e9b",
+  "sources": [
+    {
+      "file": "runs/interaction_v1/submission_generation_heat.csv",
+      "rmse": 0.94148,
+      "sha256": "788d1a0f6e6ef297f001051bfdad595774d48ee99405f61de57809dc50a957d7"
+    },
+    {
+      "file": "runs/thermal_reference_v1/submission_quadratic_heat25.csv",
+      "rmse": 0.62717,
+      "sha256": "0adf20eaafc10df97cead7e7beb45e2f1fe10625a1d3dc7d4b6035fb500ff018"
+    }
+  ],
+  "base_file": "candidates/submission_best_0p71269.csv",
+  "base_sha256": "48c8d6801f7290839877dcaedcb559c0d65499d941e1aa86c7f80c619ddeae8f",
+  "base_rmse": 0.71269,
+  "incumbent_file": "candidates/submission_best_0p62717.csv",
+  "incumbent_sha256": "0adf20eaafc10df97cead7e7beb45e2f1fe10625a1d3dc7d4b6035fb500ff018",
+  "incumbent_rmse": 0.62717,
+  "nominal_weights": [
+    -0.25691510859999933,
+    0.7291696544000001
+  ],
+  "used_weights": [
+    -0.2312235977399994,
+    0.7562526889600001
+  ],
+  "gram_full_test": [
+    [
+      0.2500000000000001,
+      -6.818573483613477e-18
+    ],
+    [
+      -6.818573483613477e-18,
+      0.25000000000000017
+    ]
+  ],
+  "nominal_rmse_forecast": 0.5987516986354267,
+  "candidate_rmse_forecast": 0.5990425550339648,
+  "limitations": [
+    "Calibration uses public leaderboard feedback; no independent target validation.",
+    "Full-test moments approximate unknown public moments; private performance is unmeasured."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "status": "UNSCORED literal feature-proxy target law",
+  "candidate": "runs/direct_proxy_candidate_v1/submission_direct_proxy.csv",
+  "sha256": "c4afbdfa308d928c669f780248cf5b9c08f5092a48db163411be3fa710052a1d",
+  "incumbent_file": "candidates/submission_best_0p43681.csv",
+  "incumbent_rmse": 0.43681,
+  "raw_formula": "feature_14*feature_15*feature_11*(1-feature_22)-feature_09*(1-feature_08)",
+  "observed_proxy_fraction": {
+    "8": 0.74895,
+    "9": 0.7506,
+    "11": 0.69325,
+    "14": 0.75139,
+    "15": 0.69441,
+    "22": 0.75001
+  },
+  "train_complete_rows": 61587,
+  "train_raw_center": 3.7386738556320953,
+  "train_raw_sd": 4.7256992230947406,
+  "target_center_assumed": 3.9,
+  "target_sd_assumed": 4.6,
+  "test_prediction_mean": 3.838944169909683,
+  "test_prediction_sd": 4.560605644423568,
+  "prediction_min": -0.45247651803721345,
+  "prediction_max": 23.600146585615096,
+  "rms_from_incumbent": 2.497712152927836,
+  "max_change": 16.44746090848049,
+  "scored_span_novelty": 0.002907546258025142,
+  "score_used_to_choose_formula": false,
+  "target_rmse_forecast": null,
+  "limitations": [
+    "The literal proxy law is motivated by the brief, not labels.",
+    "Train complete rows have noisy proxies; affine scaling uses approximate brief moments.",
+    "Missing values use the repaired posterior and local priors.",
+    "No hidden-target or public-score validation exists."
+  ]
+}

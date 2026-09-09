@@ -1,0 +1,154 @@
+{
+  "status": "Completed sensor and numerical audit; not NDEM target validation.",
+  "scored_files_checked": {
+    "submission.csv": "3f2c372bf15f93b70bbf711bc2a5036785cb495746d065f3d73b42ee6b51f104",
+    "candidates/submission_combined.csv": "e6e9f2f1b6e20115c18a1e41ed834c6c05cc04d573b50726b614000bedb713f6",
+    "candidates/submission_battery.csv": "775f80e83dd33b2afe1e356f6bd0eabd2ec25ba4b9f7f31b56a802efd8d1bb7a",
+    "candidates/submission_tuned_heat.csv": "849c866d999eab48bfcbc77a38157ba62e7db327c1f2787a38279465f91093f4",
+    "candidates/submission_refined_plane.csv": "9e99dda7caccc2d384cca69bb5cdd1b20bb95116193d7e4a5a47234b49fb3486",
+    "runs/reconstruction_v1/submission_reconstruction_repaired.csv": "808d02e1c832e62aaad51645145f1755a581ccb910839cf5c5f7f6ab7710cb4d",
+    "candidates/submission_thermal_tail.csv": "30d528b093ffaadf75977a02f3a85f277ee3725091736e6041c4c12f700840ed",
+    "candidates/submission_blend_v2.csv": "48c8d6801f7290839877dcaedcb559c0d65499d941e1aa86c7f80c619ddeae8f",
+    "runs/interaction_v1/submission_generation_heat.csv": "788d1a0f6e6ef297f001051bfdad595774d48ee99405f61de57809dc50a957d7",
+    "runs/thermal_reference_v1/submission_quadratic_heat25.csv": "0adf20eaafc10df97cead7e7beb45e2f1fe10625a1d3dc7d4b6035fb500ff018",
+    "runs/thermal_calibrated_v1/submission_thermal_calibrated.csv": "79347b19112365760de56159341c3a2f92c17e4551d2af02c9afbe814bff6e9b",
+    "runs/observed_thermal_v1/submission_observed_temperature.csv": "58e2ee81d6bc1aa859a6ecb3f875827691d2005ffd3209f941bf858d694fd893",
+    "runs/temperature_slope_v1/submission_temperature_slope.csv": "20e74f046731154b089471c60fd3fd1a263b5dccaa369998d5419476f4ca698b"
+  },
+  "best_rmse": 0.60061,
+  "excluded_previous_sensor_audit_rows": 29717,
+  "sensor_holdouts": [
+    {
+      "scenario": "panel",
+      "iterations": 22,
+      "n": 5000,
+      "rmse": 1.3570341371017425,
+      "bias": -0.019773769508125472,
+      "mae": 0.9619869292854557,
+      "max_abs": 9.96872360043897,
+      "fallback_calls": 24,
+      "nonconverged_fallback_calls": 0,
+      "accepted_fallback_rows": 12,
+      "still_inconsistent_rows": 0
+    },
+    {
+      "scenario": "panel",
+      "iterations": 66,
+      "n": 5000,
+      "rmse": 1.3570341811104063,
+      "bias": -0.019773822187862767,
+      "mae": 0.9619867739660344,
+      "max_abs": 9.96872360043897,
+      "fallback_calls": 24,
+      "nonconverged_fallback_calls": 0,
+      "accepted_fallback_rows": 12,
+      "still_inconsistent_rows": 0
+    },
+    {
+      "scenario": "panel",
+      "change_22_to_66_rms": 3.0826070128669195e-05
+    },
+    {
+      "scenario": "panel_loss",
+      "iterations": 22,
+      "n": 5000,
+      "rmse": 1.8349180963921978,
+      "bias": -0.057542853398025465,
+      "mae": 1.2001025605884457,
+      "max_abs": 13.080501111506194,
+      "fallback_calls": 26,
+      "nonconverged_fallback_calls": 0,
+      "accepted_fallback_rows": 13,
+      "still_inconsistent_rows": 0
+    },
+    {
+      "scenario": "panel_loss",
+      "iterations": 66,
+      "n": 5000,
+      "rmse": 1.834892695376631,
+      "bias": -0.057553775742634664,
+      "mae": 1.200091632737954,
+      "max_abs": 13.080501111506194,
+      "fallback_calls": 28,
+      "nonconverged_fallback_calls": 0,
+      "accepted_fallback_rows": 14,
+      "still_inconsistent_rows": 0
+    },
+    {
+      "scenario": "panel_loss",
+      "change_22_to_66_rms": 0.0007762481869850979
+    },
+    {
+      "scenario": "panel_loss_ambient",
+      "iterations": 22,
+      "n": 5000,
+      "rmse": 3.218978310003923,
+      "bias": -0.02345558852181528,
+      "mae": 2.397206761374179,
+      "max_abs": 16.949240810043182,
+      "fallback_calls": 28,
+      "nonconverged_fallback_calls": 0,
+      "accepted_fallback_rows": 14,
+      "still_inconsistent_rows": 0
+    },
+    {
+      "scenario": "panel_loss_ambient",
+      "iterations": 66,
+      "n": 5000,
+      "rmse": 3.2189756822811626,
+      "bias": -0.023453676127342983,
+      "mae": 2.397208236379864,
+      "max_abs": 16.949240810043182,
+      "fallback_calls": 32,
+      "nonconverged_fallback_calls": 0,
+      "accepted_fallback_rows": 16,
+      "still_inconsistent_rows": 0
+    },
+    {
+      "scenario": "panel_loss_ambient",
+      "change_22_to_66_rms": 0.0011747913954941683
+    },
+    {
+      "scenario": "gross_frequency",
+      "iterations": 22,
+      "n": 5000,
+      "rmse": 0.6698289098685168,
+      "bias": -0.02432914370847974,
+      "mae": 0.11848747701473844,
+      "max_abs": 18.302589354987383,
+      "fallback_calls": 20,
+      "nonconverged_fallback_calls": 0,
+      "accepted_fallback_rows": 10,
+      "still_inconsistent_rows": 0
+    },
+    {
+      "scenario": "gross_frequency",
+      "iterations": 66,
+      "n": 5000,
+      "rmse": 0.669828907500991,
+      "bias": -0.02432913758903588,
+      "mae": 0.11848741745714819,
+      "max_abs": 18.302589354987383,
+      "fallback_calls": 22,
+      "nonconverged_fallback_calls": 0,
+      "accepted_fallback_rows": 11,
+      "still_inconsistent_rows": 0
+    },
+    {
+      "scenario": "gross_frequency",
+      "change_22_to_66_rms": 2.8940282843376488e-06
+    }
+  ],
+  "sampling": {
+    "n_ordinary": 7982,
+    "temperature_mean_cache_vs_analytic_rms": 0.12722889550613825,
+    "gaussian_40_draw_expected_sampling_rms": 0.12791603408123847,
+    "temperature_posterior_sd_median": 0.5402631822800485,
+    "note": "Temperature units only. Sampling/clipping and posterior approximation remain distinct from target accuracy."
+  },
+  "nonconverged_calls": [],
+  "limitations": [
+    "Observed-sensor holdouts do not reproduce all naturally missing regimes.",
+    "The public target feedback already used in model selection is not an independent validation set."
+  ]
+}

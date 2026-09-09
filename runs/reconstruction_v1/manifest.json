@@ -1,0 +1,62 @@
+{
+  "status": "UNSCORED reconstruction-only candidate; target and normalization frozen",
+  "protected_input_hashes": {
+    "Dataset/train.csv": "71bdb67f761175d9df20d740d1534b9e36fa059b20c5860a49e20dff411b4fcb",
+    "Dataset/test.csv": "f1d944504014df5dd742bccc3746c0759456789e3533a97c6edd64ca804486dc",
+    "Dataset/sample_submission.csv": "16281d2720d8737fc1a3fa0b7af53c6e1aa33cc89161eae12d372c0e1f1b9ec3",
+    "work/blocks_train.npz": "79ce822795c78469a5f2e2bc8b3ead11c12f1d63052634a25737cacb77617df1",
+    "work/blocks_test.npz": "6a940aff71be5e884745167c5ce5a6696544cdeb13c0018ef9342f222ac8bf97",
+    "work/params_final.pkl": "df5b1ed451d76cd692f3922218fb77ba60c0cb9de8b2d223eab8e182f5f4fb99",
+    "candidates/submission_best_0p78886.csv": "9e99dda7caccc2d384cca69bb5cdd1b20bb95116193d7e4a5a47234b49fb3486",
+    "candidates/manifest.json": "534e8ac5e2527b528cfce6a9f3e6800f176778c3f8f71675581e9501242dafee",
+    "candidates/refined_plane_manifest.json": "45fe7f0736ea39c2952bd0dcd2c2aeb164b20ce87fd59fb598acaa78f6673af4"
+  },
+  "source_hashes": {
+    "work/reconstruction_repair.py": "eecb2947bb66fee8e127599c449bcfa23fe2aee77c9b829df1699aee24377d61",
+    "work/frozen_target.py": "b5b4c982d64ef02e63a217b34c5f4970cf5c4918e49e78fd9a32c2b6ce807b93",
+    "work/run_reconstruction_repair.py": "f7e698a72fef409cb3ef96125723d251f9acc6a74b96882859223dd3a42b79bb",
+    "work/wind_repair_v2.json": "a52bdd34360238168f43eeff9a182b20ff7dc1926c710ec0c37f6a1c1a6e605a",
+    "work/reconstruction_repair_validation.json": "b6644a7654086702c1e521ac171deb96161c9dc8d9328b99fbd8246abebcf43c"
+  },
+  "output": "runs\\reconstruction_v1\\submission_reconstruction_repaired.csv",
+  "sha256": "808d02e1c832e62aaad51645145f1755a581ccb910839cf5c5f7f6ab7710cb4d",
+  "frozen_target_sha256": "c613085e0485b47cfb635067d8c185a65c1cb0400db0ef7fa2feeeb12605d983",
+  "cache_sha256": "482dcc8ec5c660f0b0a89ca5544cd3a4a5f4c92572347ef1c9a788f5929d5897",
+  "n": 100000,
+  "normalization_refitted": false,
+  "target_weights_retuned": false,
+  "monte_carlo": {
+    "seed": 2024,
+    "samples": 40,
+    "chunk_size": 25000
+  },
+  "fit_counts": {
+    "retry": 248,
+    "accepted": 248,
+    "still_inconsistent": 0
+  },
+  "prediction_change_rms": 0.10797441206921095,
+  "changed_over_1e_minus8": 1388,
+  "changed_over_0p25": 76,
+  "max_absolute_change": 32.631932200961614,
+  "prediction_mean": 3.8659118648802617,
+  "prediction_sd": 4.712016626446645,
+  "prediction_min": -11.532640867087409,
+  "prediction_max": 21.701022777732348,
+  "known_regression_row": {
+    "row_id": 438963,
+    "retry": false,
+    "accepted": false,
+    "still_inconsistent": false,
+    "max_sensor_residual": 2.061215690404279,
+    "old_prediction": -29.08228744503649,
+    "new_prediction": 3.549644755925128,
+    "change": 32.631932200961614
+  },
+  "limitations": [
+    "Sensor holdouts do not measure NDEM target RMSE.",
+    "Rare high-wind test strata contain only 10 or 11 rows.",
+    "Posterior uncertainty remains a local Gaussian approximation.",
+    "Any remaining inconsistent rows are explicitly reported."
+  ]
+}

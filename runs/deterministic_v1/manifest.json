@@ -1,0 +1,38 @@
+{
+  "status": "UNSCORED numerical correction; locally sensor-validated.",
+  "candidate": "runs/deterministic_v1/submission_deterministic.csv",
+  "sha256": "ef2cba635975b56601a4acfe4d4a5814afa6e7f4cb8941cf9ef6170bee530f36",
+  "incumbent_file": "candidates/submission_best_0p60061.csv",
+  "incumbent_sha256": "79347b19112365760de56159341c3a2f92c17e4551d2af02c9afbe814bff6e9b",
+  "incumbent_rmse": 0.60061,
+  "target_weights_frozen": true,
+  "normalization_refitted": false,
+  "nodes": 256,
+  "seed": 104,
+  "rms_prediction_change": 0.040064529641040965,
+  "max_prediction_change": 1.4151488632080662,
+  "prediction_min": -16.541876268478124,
+  "prediction_max": 19.397544236629194,
+  "fit_counts": {
+    "original": {},
+    "repaired": {
+      "retry": 248,
+      "accepted": 248,
+      "still_inconsistent": 0,
+      "failed_fallback": 0
+    }
+  },
+  "full_run_matches_validation": true,
+  "sources": {
+    "work/deterministic_moments.py": "98309f6f13b30267373e3b5ce77ec723070dc09fd2feca5a7084aaee6b4d76f7",
+    "work/frozen_current_target.py": "570745f3c581b4e28f3ef78021ffdba5fe6967020920f2d99a14cda6e85e465c",
+    "work/reconstruction_repair.py": "f96ea53b29e64c471e0a9adadfb35975c987a75b2dbf27c5a9cff63db4bd575c",
+    "work/model3.py": "647ecc1e5ee8a7954327cdf3fd1d688ba4a212fa683ad32b8bcbee83b3c94e83",
+    "runs/deterministic_v1/frozen_target.json": "532d68c5cae07f1a28ce9c5d4b525a2c0bb4edfbbffe6c9326cb069ddff4ba05",
+    "runs/deterministic_v1/validation.json": "55f767b12c1684e4910dbd835fb7b456f01e00bc4cd9c02355b0847ec919fb3a"
+  },
+  "limitations": [
+    "No target score has been measured; numerical accuracy is not target accuracy.",
+    "Retains the legacy and repaired reconstruction branches and Gaussian posterior assumption."
+  ]
+}

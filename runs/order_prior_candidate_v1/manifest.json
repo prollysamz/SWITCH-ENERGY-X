@@ -1,0 +1,50 @@
+{
+  "status": "UNSCORED local-prior reconstruction candidate; unchanged target coefficients",
+  "candidate": "runs/order_prior_candidate_v1/submission_order_priors.csv",
+  "sha256": "caed9bd21dffeea43001655b1db3bb15d289f380bda6f1f845f76ce71597847a",
+  "incumbent_file": "candidates/submission_best_0p44348.csv",
+  "incumbent_score": 0.44348,
+  "incumbent_sha256": "6764740443ef82125db408cd27369e9983076555011b8fe1de4471700c178555",
+  "max_reproduction_error": 3.3939517862791035e-13,
+  "unused_partition_max_reproduction_error": 2.0961010704922955e-13,
+  "disjoint_algebra_update_max_difference": 5.991850138447074e-15,
+  "rms_prediction_change": 0.06555799751994666,
+  "max_prediction_change": 2.8255770068550716,
+  "delta_quantiles": [
+    -2.8255770068550716,
+    -0.7892462406893223,
+    -0.10256117878028972,
+    -0.00010952656808332254,
+    0.09552535857674813,
+    0.6957616902725463,
+    1.957568631949104
+  ],
+  "variance_clamps": {
+    "original_V_pg": 2,
+    "original_V_tau": 0,
+    "original_V_eta": 79,
+    "original_V_tl": 995,
+    "original_V_S": 17,
+    "original_V_D": 3,
+    "repaired_V_pg": 1,
+    "repaired_V_tau": 0,
+    "repaired_V_eta": 79,
+    "repaired_V_tl": 998,
+    "repaired_V_S": 17,
+    "repaired_V_D": 3
+  },
+  "target_coefficients_refitted_to_scores": false,
+  "target_rmse_forecast": null,
+  "sensor_audits": [
+    "runs/order_prior_audit_v1/report.json",
+    "runs/order_prior_confirmation_v1/report.json",
+    "runs/order_prior_cross_sensor_v1/report.json"
+  ],
+  "limitations": [
+    "Sensor holdouts are not hidden-target validation.",
+    "Gaussian prior replacement is approximate; existing Monte Carlo deviations are retained.",
+    "Learned residual and missingness correction remain frozen.",
+    "Observed-sensor masks may differ from natural missingness.",
+    "Rank and public/private score improvements are unverified."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "results": [
+    {
+      "scenario": "thermal",
+      "n": 1000,
+      "baseline_rmse": 1.2476776199374064,
+      "candidate_rmse": 1.1238196557240148,
+      "mse_gain": 0.29372882470102823,
+      "paired_se": 0.05543448911656466
+    },
+    {
+      "scenario": "storage",
+      "n": 1000,
+      "baseline_rmse": 0.03322568400298343,
+      "candidate_rmse": 0.07927145376022479,
+      "mse_gain": -0.005180017303793348,
+      "paired_se": 0.0021625472348761965
+    },
+    {
+      "scenario": "demand",
+      "n": 1000,
+      "baseline_rmse": 0.230714291658439,
+      "candidate_rmse": 0.23063548377383794,
+      "mse_gain": 3.635799986298799e-05,
+      "paired_se": 9.433976112395765e-05
+    }
+  ],
+  "target_scores_used": false,
+  "target_weights_fixed": true,
+  "limitation": "Teacher is the frozen formula on richer sensor observations, not true NDEM. This tests reconstruction consistency only."
+}

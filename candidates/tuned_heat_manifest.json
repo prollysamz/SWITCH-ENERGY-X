@@ -1,0 +1,40 @@
+{
+  "status": "UNSCORED; aggregate-score extrapolation, not target validation",
+  "sources": [
+    {
+      "file": "candidates/submission_battery.csv",
+      "rmse": 2.8156,
+      "sha256": "775f80e83dd33b2afe1e356f6bd0eabd2ec25ba4b9f7f31b56a802efd8d1bb7a"
+    },
+    {
+      "file": "candidates/submission_combined.csv",
+      "rmse": 1.83716,
+      "sha256": "e6e9f2f1b6e20115c18a1e41ed834c6c05cc04d573b50726b614000bedb713f6"
+    }
+  ],
+  "formula": "battery + weight * (combined - battery)",
+  "weight": 2.2795869758614558,
+  "nominal_optimal_weight": 2.3280891299350364,
+  "direction_second_moment_full_test": 1.2451380022597085,
+  "public_n_assumed": 30000,
+  "random_public_subset_moment_standard_error": 0.01131196471384168,
+  "stress_second_moment": 1.2790738964012336,
+  "forecast_rmse_using_full_test_moment": 1.0871456998767204,
+  "forecast_rmse_using_stress_moment": 1.1317572150551989,
+  "limitations": [
+    "Public scoring row IDs are unknown; full-test moments may differ.",
+    "The 3-SE stress calculation assumes random public row selection.",
+    "Forecasts do not include private distribution shift or score provenance errors.",
+    "No clipping is applied, because clipping changes the scored direction."
+  ],
+  "output": {
+    "file": "candidates\\submission_tuned_heat.csv",
+    "sha256": "849c866d999eab48bfcbc77a38157ba62e7db327c1f2787a38279465f91093f4",
+    "n": 100000,
+    "mean": 3.8213803137760323,
+    "sd": 4.76566947204379,
+    "min": -30.544983658985885,
+    "max": 22.009825463281423,
+    "negative_fraction": 0.18414
+  }
+}

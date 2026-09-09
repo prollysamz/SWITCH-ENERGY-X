@@ -1,0 +1,5 @@
+{
+  "measured_score": 0.60042,
+  "decision": "Recorded measured score; learned-model weights remain frozen.",
+  "best_public_rmse": 0.60042
+}

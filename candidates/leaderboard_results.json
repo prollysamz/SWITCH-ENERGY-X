@@ -1,0 +1,212 @@
+{
+  "source": "User-reported public leaderboard scores",
+  "private_score": null,
+  "best_file": "candidates/submission_best_0p43681.csv",
+  "results": [
+    {
+      "file": "submission.csv",
+      "rmse": 2.53192,
+      "sha256": "3f2c372bf15f93b70bbf711bc2a5036785cb495746d065f3d73b42ee6b51f104"
+    },
+    {
+      "file": "candidates/submission_combined.csv",
+      "rmse": 1.83716,
+      "public_rank": 2,
+      "sha256": "e6e9f2f1b6e20115c18a1e41ed834c6c05cc04d573b50726b614000bedb713f6"
+    },
+    {
+      "file": "candidates/submission_battery.csv",
+      "rmse": 2.8156,
+      "sha256": "775f80e83dd33b2afe1e356f6bd0eabd2ec25ba4b9f7f31b56a802efd8d1bb7a"
+    },
+    {
+      "file": "candidates/submission_tuned_heat.csv",
+      "rmse": 1.08381,
+      "sha256": "849c866d999eab48bfcbc77a38157ba62e7db327c1f2787a38279465f91093f4",
+      "public_rank": null
+    },
+    {
+      "file": "candidates/submission_refined_plane.csv",
+      "rmse": 0.78886,
+      "sha256": "9e99dda7caccc2d384cca69bb5cdd1b20bb95116193d7e4a5a47234b49fb3486",
+      "public_rank": null
+    },
+    {
+      "file": "runs/reconstruction_v1/submission_reconstruction_repaired.csv",
+      "rmse": 0.75,
+      "note": "user-reported, approximate"
+    },
+    {
+      "file": "candidates/submission_thermal_tail.csv",
+      "rmse": 0.84,
+      "sha256": "30d528b093ffaadf75977a02f3a85f277ee3725091736e6041c4c12f700840ed",
+      "note": "superlinear thermal tail probe; user-reported"
+    },
+    {
+      "file": "candidates/submission_blend_v2.csv",
+      "rmse": 0.71269,
+      "public_rank": 3,
+      "sha256": "48c8d6801f7290839877dcaedcb559c0d65499d941e1aa86c7f80c619ddeae8f",
+      "source": "User confirmed exact score"
+    },
+    {
+      "file": "runs/interaction_v1/submission_generation_heat.csv",
+      "rmse": 0.94148,
+      "sha256": "788d1a0f6e6ef297f001051bfdad595774d48ee99405f61de57809dc50a957d7",
+      "source": "User-reported exact public RMSE"
+    },
+    {
+      "file": "runs/thermal_reference_v1/submission_quadratic_heat25.csv",
+      "rmse": 0.62717,
+      "sha256": "0adf20eaafc10df97cead7e7beb45e2f1fe10625a1d3dc7d4b6035fb500ff018",
+      "source": "User-reported exact public RMSE"
+    },
+    {
+      "file": "runs/thermal_calibrated_v1/submission_thermal_calibrated.csv",
+      "rmse": 0.60061,
+      "sha256": "79347b19112365760de56159341c3a2f92c17e4551d2af02c9afbe814bff6e9b",
+      "source": "User-reported exact public RMSE"
+    },
+    {
+      "file": "runs/observed_thermal_v1/submission_observed_temperature.csv",
+      "rmse": 0.64514,
+      "sha256": "58e2ee81d6bc1aa859a6ecb3f875827691d2005ffd3209f941bf858d694fd893",
+      "source": "User-reported exact public RMSE"
+    },
+    {
+      "file": "runs/temperature_slope_v1/submission_temperature_slope.csv",
+      "rmse": 0.84,
+      "sha256": "20e74f046731154b089471c60fd3fd1a263b5dccaa369998d5419476f4ca698b",
+      "source": "User-reported rounded public RMSE",
+      "precision": "approximate"
+    },
+    {
+      "file": "runs/deterministic_v1/submission_deterministic.csv",
+      "rmse": 0.60058,
+      "sha256": "ef2cba635975b56601a4acfe4d4a5814afa6e7f4cb8941cf9ef6170bee530f36",
+      "source": "User-reported exact public RMSE",
+      "precision": "exact"
+    },
+    {
+      "file": "runs/learned_energy_v1/submission_learned_energy.csv",
+      "rmse": 0.60042,
+      "sha256": "386c114c02ce2c13055afc004ee4177abff89e30ffe703ba6d1a307e14ffed20",
+      "source": "User-reported exact public RMSE",
+      "precision": "exact"
+    },
+    {
+      "file": "runs/solar_contribution_v1/submission_solar_contribution.csv",
+      "rmse": 0.53504,
+      "sha256": "ec2c74e5732c8c3d6b8f992ccccbdb76b2b242adb6841c18c5b3614604c145f3",
+      "source": "User-reported exact public RMSE",
+      "precision": "exact"
+    },
+    {
+      "file": "runs/direct_demand_v1/submission_direct_demand.csv",
+      "rmse": 0.57,
+      "sha256": "0d30ea0abc75baee225e6e107bd1b64896259d15e33e7459e3838610db8a69f5",
+      "source": "User-reported rounded public RMSE",
+      "precision": "approximate"
+    },
+    {
+      "file": "runs/storage_contribution_v1/submission_storage_contribution.csv",
+      "rmse": 0.58,
+      "sha256": "f972b2d304af43d984f144bb8d78f53cbc997f02e4867bb3e980c6a288489a3c",
+      "source": "User-reported rounded public RMSE",
+      "precision": "approximate"
+    },
+    {
+      "file": "runs/compact_blend_v1/submission_compact_blend.csv",
+      "rmse": 0.49992,
+      "sha256": "76b8432310b193062d874fc53df8abb83e102a7d3783a2aacee94e4885d5e602",
+      "source": "User-reported exact public RMSE",
+      "precision": "exact"
+    },
+    {
+      "file": "runs/generation_curvature_v1/submission_generation_curvature.csv",
+      "rmse": 0.46182,
+      "sha256": "1ffab46ba23c04ac466ba72126fb1f78f8a46626a11a6c405ccb608671bd816d",
+      "source": "User-reported exact public RMSE",
+      "precision": "exact"
+    },
+    {
+      "file": "runs/successful_components_v1/submission_successful_components.csv",
+      "rmse": 0.45095,
+      "sha256": "e481dc4df6d7f636f9039dab625f2c38cbe0748d1b58147d396f0d306f67f34b",
+      "source": "User-reported exact public RMSE",
+      "precision": "exact"
+    },
+    {
+      "file": "runs/successful_components_v2/submission_successful_components_v2.csv",
+      "rmse": 0.45067,
+      "sha256": "c5a011c5202c909c4841cfacf67ebf1434329a1994c41ee012791af47176b24c",
+      "source": "User-reported exact public RMSE",
+      "precision": "exact"
+    },
+    {
+      "file": "runs/successful_components_v3/submission_successful_components_v3.csv",
+      "rmse": 0.45066,
+      "sha256": "51886e681f9fc69d8f47c44e6500e0bc92bbb28472b735f6e1625b9167a90ffd",
+      "source": "User-reported exact public RMSE",
+      "precision": "exact"
+    },
+    {
+      "file": "runs/measurement_probe_v1/submission_measurement_probe.csv",
+      "rmse": 0.4448,
+      "sha256": "518489465f51b332c8b8196d914ee548ee7d3ac4bcfd3007b2c5914b91b34de5",
+      "source": "User-reported exact public RMSE",
+      "precision": "exact",
+      "note": "Small-step measurement probe along perp(E_pm-E_D); implies cosine 0.171912"
+    },
+    {
+      "file": "runs/optimal_step_v1/submission_optimal_step.csv",
+      "rmse": 0.44348,
+      "sha256": "6764740443ef82125db408cd27369e9983076555011b8fe1de4471700c178555",
+      "source": "User-confirmed exact public RMSE; attached Downloads file SHA256 matches local candidate",
+      "precision": "exact",
+      "public_rank": 4
+    },
+    {
+      "file": "runs/order_prior_candidate_v1/submission_order_priors.csv",
+      "rmse": 0.43681,
+      "precision": "exact",
+      "sha256": "caed9bd21dffeea43001655b1db3bb15d289f380bda6f1f845f76ce71597847a",
+      "source": "User-reported score; verified Downloads file hash"
+    },
+    {
+      "file": "runs/global_bias_v1/submission_bias_plus_0p10.csv",
+      "rmse": 0.45368,
+      "precision": "exact",
+      "sha256": "6a2fff3c2157ab56232d0f4fa096e552e51c6cc5b0f040b545019117c45490e7",
+      "source": "Exact score visible in user screenshot"
+    },
+    {
+      "file": "runs/physics_basis_v1/submission_physics_basis.csv",
+      "rmse": 0.58194,
+      "precision": "exact",
+      "sha256": "8eaa53e1741b45a93a84521f9453ebd087be105cc28c34389cb516ddfffa8080",
+      "source": "User-reported exact score"
+    }
+  ],
+  "reported_leader_rmse": 0.10432,
+  "best_public_rmse": 0.43681,
+  "reported_second_place_rmse": 0.27966,
+  "competitor_scores_precision": "Exact decimals as reported by user; no live verification",
+  "latest_user_reported_rank": 5,
+  "latest_leaderboard_snapshot": {
+    "source": "User-provided screenshot",
+    "user_rank_in_image": 4,
+    "user_rmse": 0.44348,
+    "leader_rmse": 0.10432,
+    "second_rmse": 0.27966,
+    "third_rmse": 0.4224,
+    "note": "Latest user-provided screenshot; no live verification."
+  },
+  "latest_competitor_report": {
+    "leader_rmse": 0.10432,
+    "second_rmse": 0.27966,
+    "user_rmse": 0.44348,
+    "source": "User report",
+    "user_rank": 4
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "status": "Second disjoint pseudo-target audit; no hidden target labels.",
+  "first_audit_weighted": {
+    "baseline_rmse": 0.21182371780443765,
+    "learned_rmse": 0.2095347168301141,
+    "mse_gain": 0.0009644898674179355,
+    "paired_se": 0.00020937754182959582,
+    "gate": true
+  },
+  "confirmation_weighted": {
+    "baseline_rmse": 0.21539486667993507,
+    "learned_rmse": 0.2131281228244276,
+    "mse_gain": 0.000971351853402691,
+    "paired_se": 0.0001422512707123791,
+    "gate": true
+  },
+  "results": [
+    {
+      "regime": "wind",
+      "n": 6134,
+      "physics_rmse": 3.0950535484260144,
+      "learned_rmse": 2.972217373529361,
+      "mse_gain": 0.74528035211469,
+      "paired_se": 0.07870167180865861
+    },
+    {
+      "regime": "thermal",
+      "n": 7051,
+      "physics_rmse": 0.8602551023498548,
+      "learned_rmse": 0.8599816907920457,
+      "mse_gain": 0.0004703326214135725,
+      "paired_se": 0.0024891137078217962
+    },
+    {
+      "regime": "other",
+      "n": 16815,
+      "physics_rmse": 0.13268696152688894,
+      "learned_rmse": 0.13240392370873086,
+      "mse_gain": 7.503074577068332e-05,
+      "paired_se": 9.098962734833697e-05
+    }
+  ],
+  "natural_test_proportions": {
+    "wind": 0.00119,
+    "thermal": 0.0241,
+    "other": 0.97471
+  },
+  "gate": true,
+  "model_sha256": "9f7461d6b1ac1438411a7012b8aeccf8484b57ff9e98f7e369879f53aee7885d",
+  "limitation": "Within-regime artificial-outage patterns can still differ from natural missingness."
+}

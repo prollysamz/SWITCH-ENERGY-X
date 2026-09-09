@@ -1,0 +1,37 @@
+{
+  "status": "Completed audit; no new submission generated",
+  "question": "Can the hidden NDEM formula be identified from local files and measured leaderboard scores?",
+  "data_check": {
+    "train_rows": 400000,
+    "test_rows": 100000,
+    "target_column_present": false,
+    "features": 25,
+    "test_rows_fully_observed_fraction": 0.0006,
+    "competition_target_labels_available_locally": false
+  },
+  "physically_motivated_law": {
+    "expression": "feature_14 * feature_15 * feature_11 * (1 - feature_22) - feature_09 * (1 - feature_08)",
+    "complete_train_rows": 61587,
+    "complete_train_mean": 3.7386738556320953,
+    "complete_train_sd": 4.7256992230947406,
+    "comparison": "On fully observed rows this proxy agrees with the existing latent teacher at RMSE 0.0865; this validates sensor algebra, not hidden NDEM labels."
+  },
+  "score_fit_failure": {
+    "candidate": "runs/physics_basis_v1/submission_physics_basis.csv",
+    "reported_rmse": 0.58194,
+    "interpretation": "A flexible 63-term basis reproduced old aggregate score equations but failed when submitted; it was overfit to the leaderboard subspace.",
+    "heldout_cv": "Physics-basis cross-validation on withheld scored submissions had RMSE 0.16918 in score prediction and a held-out error of about -0.373 for the physics candidate."
+  },
+  "identifiability": {
+    "exact_scored_files": 13,
+    "effective_prediction_span_rank": "about 5-7 depending on included rounds",
+    "target_vector_dimension": 100000,
+    "conclusion": "Leaderboard RMSE values constrain only a small projection of the unknown target vector. A score-consistent formula is not evidence that it is the target."
+  },
+  "next_action_required_for_real_breakthrough": [
+    "Obtain organizer generator/notebook/source leakage or an authenticated public discussion containing the law.",
+    "Alternatively spend new leaderboard probes on genuinely independent formula hypotheses; this measures directions but does not recover the full formula cheaply."
+  ],
+  "submission_generated": false,
+  "scored_files_modified": false
+}

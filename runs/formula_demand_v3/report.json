@@ -1,0 +1,13 @@
+{
+  "status": "Diagnostic profile only; no submission generated.",
+  "retained_directions": 5,
+  "profiles": 363,
+  "consistent_profile_count": 0,
+  "best_consistent": [],
+  "limitations": [
+    "Generation and demand have separate coefficients; quadratic thermal loss and target mean 3.9 remain assumptions.",
+    "Public moments and some historical scores are approximate.",
+    "Held-back aggregate-score agreement is weaker than independent target validation.",
+    "Passing checks would support a hypothesis, not prove its unmeasured target score."
+  ]
+}

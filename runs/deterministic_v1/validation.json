@@ -1,0 +1,55 @@
+{
+  "status": "Numerical and sensor validation only; no NDEM target score.",
+  "numerical": {
+    "random": {
+      "mc40_vs_reference_rms": 0.034625580100774746,
+      "qmc256_vs_reference_rms": 0.00019335481794897962,
+      "qmc1024_vs_reference_rms": 0.0001645325447544452,
+      "n": 1200
+    },
+    "stress": {
+      "mc40_vs_reference_rms": 0.21637815071568756,
+      "qmc256_vs_reference_rms": 0.0022318217669885774,
+      "qmc1024_vs_reference_rms": 0.00141073622272783,
+      "n": 80
+    }
+  },
+  "sensor_holdouts": [
+    {
+      "scenario": "panel",
+      "target_sensor": 7,
+      "n": 6000,
+      "baseline_rmse": 1.376377697740416,
+      "deterministic_rmse": 1.3566369612689657,
+      "mse_reduction": 0.05395172215611456,
+      "paired_mse_reduction_se": 0.015501601426272394
+    },
+    {
+      "scenario": "gross_frequency",
+      "target_sensor": 14,
+      "n": 6000,
+      "baseline_rmse": 0.7145000742562085,
+      "deterministic_rmse": 0.6990378007165979,
+      "mse_reduction": 0.021856509281429553,
+      "paired_mse_reduction_se": 0.013427940107415322
+    },
+    {
+      "scenario": "solar",
+      "target_sensor": 12,
+      "n": 6000,
+      "baseline_rmse": 0.03531514036401051,
+      "deterministic_rmse": 0.035117216985777515,
+      "mse_reduction": 1.3940210103583552e-05,
+      "paired_mse_reduction_se": 4.9406190749166795e-06
+    }
+  ],
+  "frozen_target_coefficients": true,
+  "normalization_refitted": false,
+  "gate_numerical": true,
+  "gate_sensor_no_material_regression": true,
+  "limitations": [
+    "4096-node Sobol is an approximate numerical reference, not ground truth.",
+    "These results do not prove a public or private target score improvement.",
+    "Observed-sensor holdouts do not cover all condition-dependent missingness."
+  ]
+}
